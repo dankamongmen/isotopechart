@@ -1,0 +1,238 @@
+digraph decay {
+
+  node [ fontname="Gentium Book Plus" ]
+
+  subgraph clusterlight {
+
+    subgraph hydrogen {
+      node [ style=filled fillcolor=aquamarine height=0.3 width=0.8 shape=rectangle ]
+      H1 [ shape=octagon ]
+      H2 [ shape=octagon ]
+      H3
+      H4
+      H5
+      H6
+      H7
+      //H1 -> He2 [ label="p+" ]
+      H4 -> H3 [ label="n" ]
+      H5 -> H3 [ label="2n" ]
+      H6 -> H5 [ label="n" ]
+      H6 -> H3 [ label="3n" ]
+      H7 -> H5 [ label="2n" ]
+    }
+
+    subgraph helium {
+      node [ style=filled fillcolor=moccasin height=0.3 width=0.8 shape=rectangle ]
+      He2
+      He3 [ shape=octagon ]
+      He4 [ shape=octagon ]
+      He5
+      He6
+      He7
+      He8
+      He9
+      He10
+      He2 -> H1 [ label="p" ]
+      He2 -> H2 [ label="β" ]
+      He5 -> He4 [ label="n" ]
+      He7 -> He6 [ label="n" ]
+      He9 -> He8 [ label="n" ]
+      He10 -> He8 [ label="2n" ]
+      He3 -> H3 [ label="β-" dir=back ]
+    }
+
+    subgraph lithium {
+      node [ style=filled fillcolor=rosybrown height=0.3 width=0.8 shape=rectangle ]
+      Li3
+      Li4
+      Li5
+      Li6 [ shape=octagon ]
+      Li7 [ shape=octagon ]
+      Li8
+      Li9
+      Li10
+      Li11
+      Li12
+      Li13
+      Li3 -> He2 [ label="p" ]
+      Li4 -> He3 [ label="p" ]
+      Li5 -> He4 [ label="p" ]
+      Li10 -> Li9 [ label="n" ]
+      Li12 -> Li11 [ label="n" ]
+      Li13 -> Li11 [ label="2n" ]
+      Li6 -> He6 [ label="β-" dir=back ]
+      Li8 -> He8 [ label="β-" dir=back ]
+    }
+
+    subgraph bery {
+      node [ style=filled fillcolor=hotpink height=0.3 width=0.8 shape=rectangle ]
+      Be5
+      Be6
+      Be7
+      Be8
+      Be9 [ shape=octagon ]
+      Be10
+      Be11
+      Be12
+      Be13
+      Be14
+      Be15
+      Be16
+      Be5 -> Li4 [ label="p" ]
+      Be6 -> He4 [ label="2p" ]
+      Be7 -> Li7 [ label="ε" ]
+      Be8 -> He4 [ label="α" ]
+      Be13 -> Be12 [ label="n" ]
+      Be15 -> Be14 [ label="n" ]
+      Be16 -> Be14 [ label="2n" ]
+      Be8 -> Li8 [ label="β-" dir=back ]
+      Be9 -> Li9 [ label="β-" dir=back ]
+      Be11 -> Li11 [ label="β-" dir=back ]
+    }
+
+    subgraph boron {
+      node [ style=filled fillcolor=burlywood height=0.3 width=0.8 shape=rectangle ]
+      B6
+      B7
+      B8
+      B9
+      B10 [ shape=octagon ]
+      B11 [ shape=octagon ]
+      B12
+      B13
+      B14
+      B15
+      B6 -> Li6 [ label="2p" ]
+      B7 -> Li6 [ label="p" ]
+      B8 -> Be8 [ label="β" ]
+      B9 -> Be8 [ label="p" ]
+      B16 -> B15 [ label="n" ]
+      B18 -> B17 [ label="n" ]
+      B20 -> B19 [ label="n" ]
+      B21 -> B19 [ label="2n" ]
+      B10 -> Be10 [ label="β-" dir=back ]
+      B11 -> Be11 [ label="β-" dir=back ]
+      B12 -> Be12 [ label="β-" dir=back ]
+      B14 -> Be14 [ label="β-" dir=back ]
+    }
+
+    subgraph carbon {
+      node [ style=filled fontcolor=white fillcolor=black height=0.3 width=0.8 shape=rectangle ]
+      C8
+      C9
+      C10
+      C11
+      C12 [ shape=octagon ]
+      C13 [ shape=octagon ]
+      C14
+      C15
+      C16
+      C17
+      C18
+      C19
+      C20
+      C21
+      C22
+      C23
+      C8 -> Be6 [ label="2p" ]
+      C9 -> B9 [ label="β" ]
+      C10 -> B10 [ label="β" ]
+      C11 -> B11 [ label="β" ]
+      C21 -> C20 [ label="n" ]
+      C23 -> C22 [ label="n" ]
+      C12 -> B12 [ label="β-" dir=back ]
+      C13 -> B13 [ label="β-" dir=back ]
+      C14 -> B14 [ label="β-" dir=back ]
+      C15 -> B15 [ label="β-" dir=back ]
+      C17 -> B17 [ label="β-" dir=back ]
+      C19 -> B19 [ label="β-" dir=back ]
+    }
+
+    subgraph nitrogen {
+      node [ style=filled fillcolor=lightgreen height=0.3 width=0.8 shape=rectangle ]
+      N9
+      N10
+      N11
+      N12
+      N13
+      N14 [ shape=octagon ]
+      N15 [ shape=octagon ]
+      N16
+      N17
+      N18
+      N19
+      N20
+      N22
+      N23
+      N9 -> He4 [ label="5p" ]
+      N10 -> C9 [ label="p" ]
+      N11 -> C10 [ label="p" ]
+      N12 -> C12 [ label="β" ]
+      N13 -> C13 [ label="β" ]
+      N14 -> C14 [ label="β-" dir=back ]
+      N15 -> C15 [ label="β-" dir=back ]
+      N16 -> C16 [ label="β-" dir=back ]
+      N17 -> C17 [ label="β-" dir=back ]
+      N18 -> C18 [ label="β-" dir=back ]
+      N19 -> C19 [ label="β-" dir=back ]
+      N20 -> C20 [ label="β-" dir=back ]
+      N22 -> C22 [ label="β-" dir=back ]
+    }
+  
+    subgraph oxygen {
+      node [ style=filled height=0.3 width=0.8 shape=rectangle ]
+      O11
+      O12
+      O13
+      O14
+      O15
+      O16 [ shape=octagon ]
+      O17 [ shape=octagon ]
+      O18 [ shape=octagon ]
+      O19
+      O20
+      O21
+      O22
+      O23
+      O24
+      O25
+      O26
+      O27
+      O28
+      O11 -> C9 [ label="2p" ]
+      O12 -> C10 [ label="2p" ]
+      O13 -> N13 [ label="β" ]
+      O14 -> N14 [ label="β" ]
+      O15 -> N15 [ label="β" ]
+      O25 -> O24 [ label="n" ]
+      O26 -> O24 [ label="2n" ]
+      O27 -> O24 [ label="3n" ]
+      O28 -> O24 [ label="4n" ]
+      O16 -> N16 [ label="β-" dir=back ]
+      O17 -> N17 [ label="β-" dir=back ]
+      O18 -> N18 [ label="β-" dir=back ]
+      O19 -> N19 [ label="β-" dir=back ]
+      O20 -> N20 [ label="β-" dir=back ]
+      O21 -> N21 [ label="β-" dir=back ]
+      O22 -> N22 [ label="β-" dir=back ]
+      O23 -> N23 [ label="β-" dir=back ]
+    }
+
+  subgraph fluorine {
+      node [ style=filled fillcolor=purple height=0.3 width=0.8 shape=rectangle ]
+      F19 [ shape=octagon ]
+      F20
+      F21
+      F22
+      F23
+      F24
+      F19 -> O19 [ label="β-" dir=back ]
+      F20 -> O20 [ label="β-" dir=back ]
+      F21 -> O21 [ label="β-" dir=back ]
+      F22 -> O22 [ label="β-" dir=back ]
+      F23 -> O23 [ label="β-" dir=back ]
+      F24 -> O24 [ label="β-" dir=back ]
+    }
+  }
+}
+

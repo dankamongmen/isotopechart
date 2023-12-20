@@ -1,0 +1,2189 @@
+digraph decay {
+
+  node [ fontname="Gentium Book Plus" ]
+  subgraph heavy {
+
+    subgraph fermium {
+      node [ fontcolor=white style=filled fillcolor=dimgray height=0.3 width=0.8 shape=rectangle ]
+      Fm241 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm242 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm243 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm244 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm245 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm246 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm247
+      Fm248 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm249
+      Fm250 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm251
+      Fm252 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm253
+      Fm254 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm255 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm256 [ shape=Mdiamond width=1 fixedsize=true ]
+      Fm257 [ shape=Mdiamond width=1 fixedsize=true ]
+    }
+
+    subgraph ein {
+      node [ style=filled fillcolor=chartreuse height=0.3 width=0.8 shape=rectangle ]
+      Es243
+      Es244
+      Es245
+      Es246
+      Es247
+      Es248
+      Es249
+      Es250
+      Es251
+      Es252
+      Es253 [ shape=Mdiamond width=1 fixedsize=true ]
+      Es255 [ shape=Mdiamond width=1 fixedsize=true ]
+    }
+
+    subgraph cali {
+      node [ style=filled fillcolor=mistyrose height=0.3 width=0.8 shape=rectangle ]
+      Cf237 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf238 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf239
+      Cf240 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf241
+      Cf242 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf243
+      Cf244
+      Cf245
+      Cf246 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf247
+      Cf248 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf249 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf250 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf251
+      Cf252 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf253
+      Cf254 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf255 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cf256 [ shape=Mdiamond width=1 fixedsize=true ]
+    }
+
+    subgraph berk {
+      node [ style=filled fillcolor=wheat height=0.3 width=0.8 shape=rectangle ]
+      Bk230
+      Bk233
+      Bk234 [ shape=Mdiamond width=1 fixedsize=true ]
+      Bk236 [ shape=Mdiamond width=1 fixedsize=true ]
+      Bk237
+      Bk238 [ shape=Mdiamond width=1 fixedsize=true ]
+      Bk239 [ shape=Mdiamond width=1 fixedsize=true ]
+      Bk240 [ shape=Mdiamond width=1 fixedsize=true ]
+      Bk241
+      Bk242 [ shape=Mdiamond width=1 fixedsize=true ]
+      Bk243
+      Bk244
+      Bk245
+      Bk246
+      Bk247 [ shape=Mdiamond width=1 fixedsize=true ]
+      Bk248
+      Bk249
+      Bk250
+      Bk251
+    }
+
+    subgraph curium {
+      node [ style=filled fillcolor=lightcoral height=0.3 width=0.8 shape=rectangle ]
+      Cm233
+      Cm234 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm235
+      Cm236 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm237
+      Cm238
+      Cm239
+      Cm240 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm241
+      Cm242 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm243 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm244 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm245 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm246 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm247
+      Cm248 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm249
+      Cm250 [ shape=Mdiamond width=1 fixedsize=true ]
+      Cm251
+    }
+
+    subgraph americium {
+      node [ style=filled fillcolor=orange height=0.3 width=0.8 shape=rectangle ]
+      Am223
+      Am226
+      Am229
+      Am230
+      Am232 [ shape=Mdiamond width=1 fixedsize=true ]
+      Am233
+      Am234 [ shape=Mdiamond width=1 fixedsize=true ]
+      Am235
+      Am236
+      Am237
+      Am238 [ shape=Mdiamond width=1 fixedsize=true ]
+      Am239
+      Am240
+      Am241 [ shape=Mdiamond width=1 fixedsize=true ]
+      Am242 [ shape=Mdiamond width=1 fixedsize=true ]
+      Am243 [ shape=Mdiamond width=1 fixedsize=true ]
+      Am244
+      Am245
+      Am246
+      Am247
+    }
+
+    subgraph plutonium {
+      node [ style=filled fillcolor=violet height=0.3 width=0.8 shape=rectangle ]
+      Pu228
+      Pu229
+      Pu230
+      Pu231
+      Pu232
+      Pu233
+      Pu234
+      Pu235
+      Pu236 [ shape=Mdiamond width=1 fixedsize=true ]
+      Pu237
+      Pu238 [ shape=Mdiamond width=1 fixedsize=true ]
+      Pu239 [ shape=Mdiamond width=1 fixedsize=true ]
+      Pu240 [ shape=Mdiamond width=1 fixedsize=true ]
+      Pu241 [ shape=Mdiamond width=1 fixedsize=true ]
+      Pu242 [ shape=Mdiamond width=1 fixedsize=true ]
+      Pu243
+      Pu244 [ shape=Mdiamond width=1 fixedsize=true ]
+      Pu245
+      Pu246
+      Pu247
+    }
+
+    subgraph neptunium {
+      node [ style=filled fillcolor=aqua height=0.3 width=0.8 shape=rectangle ]
+      Np219
+      Np220
+      Np222
+      Np223
+      Np224
+      Np225
+      Np226
+      Np227
+      Np228
+      Np229
+      Np230
+      Np231
+      Np232
+      Np233
+      Np234
+      Np235
+      Np236
+      Np237
+      Np238
+      Np239
+      Np240
+      Np241
+      Np242
+      Np243
+      Np244
+    }
+
+    subgraph uranium {
+      node [ style=filled fillcolor=green height=0.3 width=0.8 shape=rectangle ]
+      U223
+      U224
+      U225
+      U226
+      U227
+      U228
+      U229
+      U230 [ shape=Mdiamond width=1 fixedsize=true ]
+      U231
+      U232 [ shape=Mdiamond width=1 fixedsize=true ]
+      U233 [ shape=Mdiamond width=1 fixedsize=true ]
+      U234 [ shape=Mdiamond width=1 fixedsize=true ]
+      U235 [ shape=Mdiamond width=1 fixedsize=true ]
+      U236 [ shape=Mdiamond width=1 fixedsize=true ]
+      U237
+      U238 [ shape=Mdiamond width=1 fixedsize=true ]
+      U239
+      U240
+      U241
+      U242
+    }
+
+    subgraph protactinium {
+      node [ style=filled fillcolor=lightsalmon height=0.3 width=0.8 shape=rectangle ]
+      Pa211
+      Pa212
+      Pa213
+      Pa214
+      Pa215
+      Pa216
+      Pa217
+      Pa218
+      Pa219
+      Pa220
+      Pa221
+      Pa222
+      Pa223
+      Pa224
+      Pa225
+      Pa226
+      Pa227
+      Pa228
+      Pa229
+      Pa230
+      Pa231
+      Pa232
+      Pa233
+      Pa234
+      Pa235
+      Pa236
+      Pa237
+      Pa238
+      Pa239
+    }
+
+    subgraph thorium {
+      node [ style=filled fillcolor=lightblue height=0.3 width=0.8 shape=rectangle ]
+      Th216
+      Th219
+      Th220
+      Th221
+      Th222
+      Th223
+      Th224
+      Th225
+      Th226
+      Th227
+      Th228
+      Th229
+      Th230
+      Th231
+      Th232
+      Th233
+      Th234
+      Th235
+      Th236
+      Th237
+      Th238
+    }
+
+    subgraph actinium {
+      node [ style=filled fillcolor=springgreen height=0.3 width=0.8 shape=rectangle ]
+      Ac207
+      Ac208
+      Ac209
+      Ac210
+      Ac211
+      Ac212
+      Ac213
+      Ac214
+      Ac215
+      Ac216
+      Ac217
+      Ac218
+      Ac219
+      Ac220
+      Ac221
+      Ac222
+      Ac223
+      Ac224
+      Ac225
+      Ac226
+      Ac227
+      Ac228
+      Ac229
+      Ac230
+      Ac231
+      Ac232
+      Ac233
+      Ac234
+      Ac235
+      Ac236
+    }
+
+    subgraph radium {
+      node [ style=filled fillcolor=azure height=0.3 width=0.8 shape=rectangle ]
+      Ra208
+      Ra209
+      Ra210
+      Ra211
+      Ra212
+      Ra213
+      Ra214
+      Ra215
+      Ra216
+      Ra217
+      Ra218
+      Ra219
+      Ra220
+      Ra221
+      Ra222
+      Ra223
+      Ra224
+      Ra225
+      Ra226
+      Ra227
+      Ra228
+      Ra229
+      Ra230
+      Ra231
+      Ra232
+      Ra233
+      Ra234
+    }
+
+    subgraph francium {
+      node [ style=filled fillcolor=tan height=0.3 width=0.8 shape=rectangle ]
+      Fr197
+      Fr198
+      Fr199
+      Fr200
+      Fr201
+      Fr202
+      Fr203
+      Fr204
+      Fr205
+      Fr206
+      Fr207
+      Fr208
+      Fr209
+      Fr210
+      Fr211
+      Fr212
+      Fr213
+      Fr214
+      Fr215
+      Fr216
+      Fr217
+      Fr218
+      Fr219
+      Fr220
+      Fr221
+      Fr222
+      Fr223
+      Fr224
+      Fr225
+      Fr226
+      Fr227
+      Fr228
+      Fr229
+      Fr230
+      Fr231
+      Fr232
+      Fr233
+    }
+
+    subgraph radon {
+      node [ style=filled fillcolor=palevioletred height=0.3 width=0.8 shape=rectangle ]
+      Rn196
+      Rn197
+      Rn198
+      Rn199
+      Rn200
+      Rn201
+      Rn202
+      Rn203
+      Rn204
+      Rn205
+      Rn206
+      Rn207
+      Rn208
+      Rn209
+      Rn210
+      Rn211
+      Rn212
+      Rn213
+      Rn214
+      Rn215
+      Rn216
+      Rn217
+      Rn218
+      Rn219
+      Rn220
+      Rn221
+      Rn222
+      Rn223
+      Rn224
+      Rn225
+      Rn226
+      Rn227
+      Rn228
+      Rn229
+      Rn230
+      Rn231
+    }
+
+    subgraph astatine {
+      node [ style=filled fillcolor=lavenderblush height=0.3 width=0.8 shape=rectangle ]
+      At193
+      At194
+      At195
+      At196
+      At197
+      At198
+      At199
+      At200
+      At201
+      At202
+      At203
+      At204
+      At205
+      At206
+      At207
+      At208
+      At209
+      At210
+      At211
+      At212
+      At213
+      At214
+      At215
+      At216
+      At217
+      At218
+      At219
+      At220
+      At221
+      At222
+      At223
+      At224
+      At225
+      At226
+      At227
+      At228
+      At229
+    }
+
+    subgraph polonium {
+      node [ style=filled fillcolor=lightsteelblue height=0.3 width=0.8 shape=rectangle ]
+      Po192
+      Po193
+      Po194
+      Po195
+      Po196
+      Po197
+      Po198
+      Po199
+      Po200
+      Po201
+      Po202
+      Po203
+      Po204
+      Po205
+      Po206
+      Po207
+      Po208
+      Po209
+      Po210
+      Po211
+      Po212
+      Po213
+      Po214
+      Po215
+      Po216
+      Po217
+      Po218
+      Po219
+      Po220
+      Po221
+      Po222
+    }
+
+    subgraph bismuth {
+      node [ style=filled fillcolor=mediumseagreen height=0.3 width=0.8 shape=rectangle ]
+      Bi184
+      Bi185
+      Bi186
+      Bi187
+      Bi188
+      Bi189
+      Bi190
+      Bi191
+      Bi192
+      Bi193
+      Bi194
+      Bi195
+      Bi196
+      Bi197
+      Bi198
+      Bi199
+      Bi200
+      Bi201
+      Bi202
+      Bi203
+      Bi204
+      Bi205
+      Bi206
+      Bi207
+      Bi208
+      Bi209
+      Bi210
+      Bi211
+      Bi212
+      Bi213
+      Bi214
+      Bi215
+      Bi216
+      Bi217
+      Bi218
+      Bi219
+      Bi220
+    }
+
+    subgraph lead {
+      node [ style=filled fillcolor=goldenrod height=0.3 width=0.8 shape=rectangle ]
+      Pb186
+      Pb187
+      Pb188
+      Pb189
+      Pb190
+      Pb191
+      Pb192
+      Pb193
+      Pb194
+      Pb195
+      Pb196
+      Pb197
+      Pb198
+      Pb199
+      Pb200
+      Pb201
+      Pb202
+      Pb203
+      Pb204 [ shape=octagon width=0.8 fixedsize=true ]
+      Pb205
+      Pb206 [ shape=octagon width=0.8 fixedsize=true xlabel=<<FONT POINT-SIZE="30">Uranium series</FONT>> ]
+      Pb207 [ shape=octagon width=0.8 fixedsize=true xlabel=<<FONT POINT-SIZE="30">Actinium series</FONT>> ]
+      Pb208 [ shape=octagon width=0.8 fixedsize=true xlabel=<<FONT POINT-SIZE="30">Thorium series</FONT>> ]
+      Pb209
+      Pb210
+      Pb211
+      Pb212
+      Pb213
+      Pb214
+      Pb215
+    }
+
+    subgraph thallium {
+      node [ style=filled fillcolor=powderblue height=0.3 width=0.8 shape=rectangle ]
+      Tl178
+      Tl179
+      Tl180
+      Tl181
+      Tl182
+      Tl183
+      Tl184
+      Tl185
+      Tl186
+      Tl187
+      Tl188
+      Tl189
+      Tl190
+      Tl191
+      Tl192
+      Tl193
+      Tl194
+      Tl195
+      Tl196
+      Tl197
+      Tl198
+      Tl199
+      Tl200
+      Tl201
+      Tl202
+      Tl203 [ shape=octagon width=0.8 fixedsize=true ]
+      Tl204
+      Tl205 [ shape=octagon width=0.8 fixedsize=true xlabel=<<FONT POINT-SIZE="30">Neptunium series</FONT>> ]
+      Tl206
+      Tl207
+      Tl208
+      Tl209
+      Tl210
+    }
+
+    subgraph hg {
+      node [ fontcolor=white style=filled fillcolor=maroon height=0.3 width=0.8 shape=rectangle ]
+      Hg171
+      Hg172
+      Hg173
+      Hg174
+      Hg175
+      Hg176
+      Hg177
+      Hg178
+      Hg179
+      Hg180
+      Hg181
+      Hg182
+      Hg183
+      Hg184
+      Hg185
+      Hg186
+      Hg187
+      Hg188
+      Hg189
+      Hg190
+      Hg191
+      Hg192
+      Hg193
+      Hg194
+      Hg195
+      Hg196 [ shape=octagon width=0.8 fixedsize=true ]
+      Hg197
+      Hg198 [ shape=octagon width=0.8 fixedsize=true ]
+      Hg199 [ shape=octagon width=0.8 fixedsize=true ]
+      Hg200 [ shape=octagon width=0.8 fixedsize=true ]
+      Hg201 [ shape=octagon width=0.8 fixedsize=true ]
+      Hg202 [ shape=octagon width=0.8 fixedsize=true ]
+      Hg203
+      Hg204 [ shape=octagon width=0.8 fixedsize=true ]
+      Hg205
+      Hg206
+      Hg207
+      Hg208
+    }
+
+    subgraph gold {
+      node [ style=filled fillcolor=gold height=0.3 width=0.8 shape=rectangle ]
+      Au171
+      Au172
+      Au173
+      Au174
+      Au175
+      Au176
+      Au177
+      Au178
+      Au179
+      Au180
+      Au181
+      Au182
+      Au183
+      Au184
+      Au185
+      Au186
+      Au187
+      Au188
+      Au189
+      Au190
+      Au191
+      Au192
+      Au193
+      Au194
+      Au195
+      Au196
+      Au197 [ shape=octagon width=0.8 fixedsize=true ]
+      Au198
+      Au199
+      Au200
+      Au201
+      Au202
+      Au203
+      Au204
+      Au205
+      Au206
+    }
+
+    subgraph platinum {
+      node [ style=filled fillcolor=floralwhite height=0.3 width=0.8 shape=rectangle ]
+      Pt164
+      Pt165
+      Pt166
+      Pt167
+      Pt168
+      Pt169
+      Pt170
+      Pt171
+      Pt172
+      Pt173
+      Pt174
+      Pt175
+      Pt176
+      Pt177
+      Pt178
+      Pt179
+      Pt180
+      Pt181
+      Pt182
+      Pt183
+      Pt184
+      Pt185
+      Pt186
+      Pt187
+      Pt188
+      Pt189
+      Pt190
+      Pt191
+      Pt192 [ shape=octagon width=0.8 fixedsize=true ]
+      Pt193
+      Pt194 [ shape=octagon width=0.8 fixedsize=true ]
+      Pt195 [ shape=octagon width=0.8 fixedsize=true ]
+      Pt196 [ shape=octagon width=0.8 fixedsize=true ]
+      Pt197
+      Pt198 [ shape=octagon width=0.8 fixedsize=true ]
+      Pt199
+      Pt200
+      Pt201
+      Pt202
+      Pt203
+      Pt204
+    }
+
+    subgraph iridium {
+      node [ style=filled fillcolor=chocolate height=0.3 width=0.8 shape=rectangle ]
+      Ir167
+      Ir168
+      Ir169
+      Ir170
+      Ir171
+      Ir172
+      Ir173
+      Ir174
+      Ir175
+      Ir176
+      Ir177
+      Ir178
+      Ir179
+      Ir180
+      Ir181
+      Ir182
+      Ir183
+      Ir184
+      Ir185
+      Ir186
+      Ir187
+      Ir188
+      Ir189
+      Ir190
+      Ir191 [ shape=octagon width=0.8 fixedsize=true ]
+      Ir193 [ shape=octagon width=0.8 fixedsize=true ]
+      Ir194
+      Ir195
+      Ir196
+      Ir197
+      Ir198
+    }
+
+    subgraph osmium {
+      node [ style=filled fillcolor=dodgerblue height=0.3 width=0.8 shape=rectangle ]
+      Os161
+      Os162
+      Os163
+      Os164
+      Os165
+      Os166
+      Os167
+      Os168
+      Os169
+      Os170
+      Os171
+      Os172
+      Os173
+      Os174
+      Os175
+      Os176
+      Os177
+      Os178
+      Os179
+      Os180
+      Os181
+      Os182
+      Os183
+      Os184 [ shape=octagon width=0.8 fixedsize=true ]
+      Os185
+      Os186
+      Os187 [ shape=octagon width=0.8 fixedsize=true ]
+      Os188 [ shape=octagon width=0.8 fixedsize=true ]
+      Os189 [ shape=octagon width=0.8 fixedsize=true ]
+      Os190 [ shape=octagon width=0.8 fixedsize=true ]
+      Os191
+      Os192 [ shape=octagon width=0.8 fixedsize=true ]
+      Os193
+      Os194
+      Os195
+      Os196
+    }
+
+    subgraph rhenium {
+      node [ style=filled fontcolor=white fillcolor=firebrick height=0.3 width=0.8 shape=rectangle ]
+      Re160
+      Re161
+      Re162
+      Re163
+      Re164
+      Re165
+      Re166
+      Re167
+      Re168
+      Re169
+      Re170
+      Re171
+      Re172
+      Re173
+      Re174
+      Re175
+      Re176
+      Re177
+      Re178
+      Re179
+      Re181
+      Re182
+      Re183
+      Re185 [ shape=octagon width=0.8 fixedsize=true ]
+      Re187
+      Re191
+    }
+
+    subgraph tungsten {
+      node [ style=filled fillcolor=springgreen height=0.3 width=0.8 shape=rectangle ]
+      W157
+      W158
+      W159
+      W160
+      W161
+      W162
+      W163
+      W164
+      W165
+      W166
+      W167
+      W168
+      W169
+      W170
+      W171
+      W172
+      W173
+      W174
+      W175
+      W177
+      W178
+      W179
+      W180 [ shape=octagon width=0.8 fixedsize=true ]
+      W181
+      W182 [ shape=octagon width=0.8 fixedsize=true ]
+      W183 [ shape=octagon width=0.8 fixedsize=true ]
+      W184 [ shape=octagon width=0.8 fixedsize=true ]
+      W185
+      W186 [ shape=octagon width=0.8 fixedsize=true ]
+      W187
+      W188
+      W189
+      W190
+      W191
+    }
+
+    subgraph tantalum {
+      node [ style=filled fillcolor=blanchedalmond height=0.3 width=0.8 shape=rectangle ]
+      Ta155
+      Ta156
+      Ta157
+      Ta158
+      Ta159
+      Ta160
+      Ta161
+      Ta162
+      Ta163
+      Ta164
+      Ta165
+      Ta166
+      Ta167
+      Ta168
+      Ta169
+      Ta170
+      Ta171
+      Ta172
+      Ta173
+      Ta174
+      Ta175
+      Ta177
+      Ta178
+      Ta179
+      Ta180
+      Ta181 [ shape=octagon width=0.8 fixedsize=true ]
+      Ta182
+      Ta183
+      Ta184
+      Ta185
+      Ta186
+      Ta187
+      Ta188
+    }
+
+    subgraph hafnium {
+      node [ style=filled fontcolor=white fillcolor=magenta height=0.3 width=0.8 shape=rectangle ]
+      Hf154
+      Hf155
+      Hf156
+      Hf157
+      Hf158
+      Hf159
+      Hf160
+      Hf161
+      Hf162
+      Hf163
+      Hf164
+      Hf165
+      Hf166
+      Hf167
+      Hf168
+      Hf169
+      Hf170
+      Hf171
+      Hf172
+      Hf173
+      Hf174
+      Hf175
+      Hf176 [ shape=octagon width=0.8 fixedsize=true ]
+      Hf177 [ shape=octagon width=0.8 fixedsize=true ]
+      Hf178 [ shape=octagon width=0.8 fixedsize=true ]
+      Hf179 [ shape=octagon width=0.8 fixedsize=true ]
+      Hf180 [ shape=octagon width=0.8 fixedsize=true ]
+      Hf181
+      Hf182
+      Hf183
+      Hf184
+      Hf185
+      Hf186
+      Hf187
+    }
+
+    subgraph lutetium {
+      node [ style=filled fontcolor=white fillcolor=palegoldenrod height=0.3 width=0.8 shape=rectangle ]
+      Lu150
+      Lu151
+      Lu152
+      Lu153
+      Lu154
+      Lu155
+      Lu156
+      Lu157
+      Lu158
+      Lu159
+      Lu160
+      Lu161
+      Lu162
+      Lu163
+      Lu164
+      Lu165
+      Lu166
+      Lu167
+      Lu168
+      Lu169
+      Lu170
+      Lu171
+      Lu172
+      Lu173
+      Lu174
+      Lu175 [ shape=octagon width=0.8 fixedsize=true ]
+      Lu176
+      Lu177
+      Lu183
+    }
+
+    subgraph ytterbium {
+      node [ style=filled fillcolor=seagreen height=0.3 width=0.8 shape=rectangle ]
+      Yb150
+      Yb151
+      Yb152
+      Yb153
+      Yb154
+      Yb155
+      Yb156
+      Yb157
+      Yb158
+      Yb159
+      Yb160
+      Yb161
+      Yb162
+      Yb163
+      Yb164
+      Yb165
+      Yb166
+      Yb167
+      Yb168
+      Yb169
+      Yb170 [ shape=octagon width=0.8 fixedsize=true ] 
+      Yb171 [ shape=octagon width=0.8 fixedsize=true ] 
+      Yb173 [ shape=octagon width=0.8 fixedsize=true ]
+      Yb177
+    }
+
+    subgraph thulium {
+      node [ style=filled fillcolor=aqua height=0.3 width=0.8 shape=rectangle ]
+      Tm150
+      Tm151
+      Tm154
+      Tm155
+      Tm158
+      Tm159
+      Tm163
+      Tm169 [ shape=octagon]
+      Tm171
+      Tm172
+      Tm173
+      Tm174
+      Tm175
+      Tm176
+      Tm177
+      Tm178
+      Tm179
+      Tm180
+    }
+
+    subgraph erbium {
+      node [ style=filled fillcolor=khaki height=0.3 width=0.8 shape=rectangle ]
+      Er150
+      Er151
+      Er154
+      Er155
+      Er158
+      Er159
+      Er162 [ shape=octagon width=0.8 fixedsize=true ]
+      Er163
+      Er164 [ shape=octagon width=0.8 fixedsize=true ]
+      Er166 [ shape=octagon width=0.8 fixedsize=true ]
+      Er167 [ shape=octagon width=0.8 fixedsize=true ]
+      Er168 [ shape=octagon width=0.8 fixedsize=true ]
+      Er169
+      Er170 [ shape=octagon width=0.8 fixedsize=true ]
+      Er171
+      Er172
+      Er173
+      Er174
+      Er175
+      Er176
+      Er177
+      Er178
+      Er179
+      Er180
+    }
+
+    Fm243 -> Es243 [ label="β" ]
+    Fm245 -> Es245 [ label="β" ]
+    Fm246 -> Es246 [ label="β" ]
+    Fm247 -> Es247 [ label="β" ]
+    Fm248 -> Es248 [ label="β" ]
+    Fm249 -> Es249 [ label="β" ]
+    Fm250 -> Es250 [ label="ε" ]
+    Fm251 -> Es251 [ label="β" ]
+    Fm253 -> Es253 [ label="ε" ]
+    Es243 -> Cf243 [ label="β" ]
+    Es244 -> Cf244 [ label="β" ]
+    Es245 -> Cf245 [ label="β" ]
+    Es246 -> Cf246 [ label="β" ]
+    Es247 -> Cf247 [ label="β" ]
+    Es248 -> Cf248 [ label="β" ]
+    Es249 -> Cf249 [ label="β" ]
+    Es250 -> Cf250 [ label="β" ]
+    Es251 -> Cf251 [ label="ε" ]
+    Es252 -> Cf252 [ label="ε" ]
+    Cf237 -> Bk237 [ label="β" ]
+    Cf239 -> Bk239 [ label="β" ]
+    Cf240 -> Cm236 [ label="α" ]
+    Cf240 -> Bk240 [ label="β" ]
+    Cf241 -> Cm237 [ label="α" ]
+    Cf241 -> Bk241 [ label="β" ]
+    Cf242 -> Cm238 [ label="α" ]
+    Cf242 -> Bk242 [ label="β" ]
+    Cf243 -> Cm239 [ label="α" ]
+    Cf243 -> Bk243 [ label="β" ]
+    Cf244 -> Cm240 [ label="α" ]
+    Cf244 -> Bk244 [ label="ε" ]
+    Cf245 -> Cm241 [ label="α" ]
+    Cf245 -> Bk245 [ label="β" ]
+    Cf246 -> Cm242 [ label="α" ]
+    Cf246 -> Bk246 [ label="ε" ]
+    Cf247 -> Cm243 [ label="α" ]
+    Cf247 -> Bk247 [ label="ε" ]
+    Cf248 -> Cm244 [ label="α" ]
+    Cf249 -> Cm245 [ label="α" ]
+    Cf250 -> Cm246 [ label="α" ]
+    Cf251 -> Cm247 [ label="α" ]
+    Cf252 -> Cm248 [ label="α" ]
+    Cf253 -> Cm249 [ label="α" ]
+    Cf254 -> Cm250 [ label="α" ]
+    Cf255 -> Cm251 [ label="α" ]
+    Bk230 -> Am226 [ label="α" ]
+    Bk233 -> Am229 [ label="α" ]
+    Bk234 -> Am230 [ label="α" ]
+    Bk234 -> Cm234 [ label="β" ]
+    Bk236 -> Cm236 [ label="β" ]
+    Bk237 -> Cm237 [ label="β" ]
+    Bk238 -> Cm238 [ label="β" ]
+    Bk238 -> Am234 [ label="α" ]
+    Bk239 -> Cm239 [ label="β" ]
+    Bk239 -> Am235 [ label="α" ]
+    Bk240 -> Cm240 [ label="β" ]
+    Bk240 -> Am236 [ label="α" ]
+    Bk241 -> Cm241 [ label="β" ]
+    Bk241 -> Am237 [ label="α" ]
+    Bk242 -> Cm242 [ label="β" ]
+    Bk243 -> Cm243 [ label="ε" ]
+    Bk243 -> Am239 [ label="α" ]
+    Bk244 -> Cm244 [ label="ε" ]
+    Bk244 -> Am240 [ label="α" ]
+    Bk245 -> Cm245 [ label="ε" ]
+    Bk245 -> Am241 [ label="α" ]
+    Bk246 -> Cm246 [ label="ε" ]
+    Bk246 -> Am242 [ label="α" ]
+    Bk247 -> Am243 [ label="α" ]
+    Bk248 -> Am244 [ label="α" ]
+    Bk249 -> Am245 [ label="α" ]
+    Bk251 -> Am247 [ label="α" ]
+    Cm233 -> Am233 [ label="β" ]
+    Cm233 -> Pu229 [ label="α" ]
+    Cm234 -> Am234 [ label="β" ]
+    Cm234 -> Pu230 [ label="α" ]
+    Cm235 -> Am235 [ label="β" ]
+    Cm235 -> Pu231 [ label="α" ]
+    Cm236 -> Am236 [ label="β" ]
+    Cm236 -> Pu232 [ label="α" ]
+    Cm237 -> Am237 [ label="β" ]
+    Cm237 -> Pu233 [ label="α" ]
+    Cm238 -> Am238 [ label="ε" ]
+    Cm238 -> Pu234 [ label="α" ]
+    Cm239 -> Am239 [ label="β" ]
+    Cm239 -> Pu235 [ label="α" ]
+    Cm240 -> Am240 [ label="ε" ]
+    Cm240 -> Pu236 [ label="α" ]
+    Cm241 -> Am241 [ label="ε" ]
+    Cm241 -> Pu237 [ label="α" ]
+    Cm242 -> Pu238 [ label="α" ]
+    Cm243 -> Am243 [ label="ε" ]
+    Cm243 -> Pu239 [ label="α" ]
+    Cm244 -> Pu240 [ label="α" ]
+    Cm245 -> Pu241 [ label="α" ]
+    Cm246 -> Pu242 [ label="α" ]
+    Cm247 -> Pu243 [ label="α" ]
+    Cm248 -> Pu244 [ label="α" ]
+    Cm249 -> Pu245 [ label="α" ] // 249m only
+    Cm250 -> Pu246 [ label="α" ]
+    Am223 -> Np219 [ label="α" ]
+    Am226 -> Np222 [ label="α" ]
+    Am229 -> Np225 [ label="α" ]
+    Am230 -> Pu230 [ label="β" ]
+    Am232 -> Pu232 [ label="β" ]
+    Am232 -> Np228 [ label="α" ]
+    Am233 -> Pu233 [ label="β" ]
+    Am233 -> Np229 [ label="α" ]
+    Am234 -> Pu234 [ label="β" ]
+    Am234 -> Np230 [ label="α" ]
+    Am235 -> Pu235 [ label="β" ]
+    Am235 -> Np231 [ label="α" ]
+    Am236 -> Pu236 [ label="β" ]
+    Am236 -> Np232 [ label="α" ]
+    Am237 -> Pu237 [ label="β" ]
+    Am237 -> Np233 [ label="α" ]
+    Am238 -> Pu238 [ label="β" ]
+    Am238 -> Np234 [ label="α" ]
+    Am239 -> Np235 [ label="α" ]
+    Am239 -> Pu239 [ label="ε" ]
+    Am240 -> Pu240 [ label="β" ]
+    Am240 -> Np236 [ label="α" ]
+    Am241 -> Np237 [ label="α" ]
+    Am242 -> Np238 [ label="α" ]
+    Am242 -> Pu242 [ label="ε" ]
+    Am243 -> Np239 [ label="α" ]
+    Am244 -> Pu244 [ label="ε" ]
+    Pu228 -> U224 [ label="α" ]
+    Pu228 -> Np228 [ label="β" ]
+    Pu229 -> U225 [ label="α" ]
+    Pu229 -> Np229 [ label="β" ]
+    Pu230 -> U226 [ label="α" ]
+    Pu230 -> Np230 [ label="β" ]
+    Pu231 -> U227 [ label="α" ]
+    Pu231 -> Np231 [ label="β" ]
+    Pu232 -> U228 [ label="α" ]
+    Pu232 -> Np232 [ label="ε" ]
+    Pu233 -> U229 [ label="α" ]
+    Pu233 -> Np233 [ label="β" ]
+    Pu234 -> U230 [ label="α" ]
+    Pu234 -> Np234 [ label="ε" ]
+    Pu235 -> Np235 [ label="β" ]
+    Pu235 -> U231 [ label="α" ]
+    Pu236 -> U232 [ label="α" ]
+    Pu237 -> Np237 [ label="ε" ]
+    Pu237 -> U233 [ label="α" ]
+    Pu238 -> U234 [ label="α" ]
+    Pu239 -> U235 [ label="α" ]
+    Pu240 -> U236 [ label="α" ]
+    Pu241 -> U237 [ label="α" ]
+    Pu242 -> U238 [ label="α" ]
+    Pu244 -> U240 [ label="α" ]
+    Np219 -> Pa215 [ label="α" ]
+    Np220 -> Pa216 [ label="α" ]
+    Np222 -> Pa218 [ label="α" ]
+    Np223 -> Pa219 [ label="α" ]
+    Np224 -> Pa220 [ label="α" ]
+    Np225 -> Pa221 [ label="α" ]
+    Np226 -> Pa222 [ label="α" ]
+    Np227 -> U227 [ label="β" ]
+    Np227 -> Pa223 [ label="α" ]
+    Np228 -> U228 [ label="β" ]
+    Np228 -> Pa224 [ label="α" ]
+    Np229 -> U229 [ label="β" ]
+    Np229 -> Pa225 [ label="α" ]
+    Np230 -> U230 [ label="β" ]
+    Np230 -> Pa226 [ label="α" ]
+    Np231 -> U231 [ label="β" ]
+    Np231 -> Pa227 [ label="α" ]
+    Np232 -> U232 [ label="β" ]
+    Np232 -> Pa228 [ label="α" ]
+    Np233 -> U233 [ label="β" ]
+    Np233 -> Pa229 [ label="α" ]
+    Np234 -> U234 [ label="ε" ]
+    Np235 -> Pa231 [ label="α" ]
+    Np235 -> U235 [ label="ε" ]
+    Np236 -> U236 [ label="ε" ]
+    Np236 -> Pa232 [ label="α" ]
+    Np237 -> Pa233 [ label="α" ]
+    U223 -> Th219 [ label="α" ]
+    U224 -> Th220 [ label="α" ]
+    U225 -> Th221 [ label="α" ]
+    U226 -> Th222 [ label="α" ]
+    U227 -> Th223 [ label="α" ]
+    U227 -> Pa227 [ label="β" ]
+    U228 -> Th224 [ label="α" ]
+    U228 -> Pa228 [ label="ε" ]
+    U229 -> Th225 [ label="α" ]
+    U229 -> Pa229 [ label="β" ]
+    U230 -> Th226 [ label="α" ]
+    U231 -> Th227 [ label="α" ]
+    U232 -> Th228 [ label="α" ]
+    U233 -> Th229 [ label="α" ]
+    U234 -> Th230 [ label="α" ]
+    U235 -> Th231 [ label="α" ]
+    U236 -> Th232 [ label="α" ]
+    U238 -> Th234 [ label="α" ]
+    U240 -> Th236 [ label="α" ]
+    Pa211 -> Ac207 [ label="α" ]
+    Pa212 -> Ac208 [ label="α" ]
+    Pa213 -> Ac209 [ label="α" ]
+    Pa214 -> Ac210 [ label="α" ]
+    Pa215 -> Ac211 [ label="α" ]
+    Pa216 -> Ac212 [ label="α" ]
+    Pa217 -> Ac213 [ label="α" ]
+    Pa216 -> Th216 [ label="β" ]
+    Pa218 -> Ac214 [ label="α" ]
+    Pa219 -> Th219 [ label="β" ]
+    Pa219 -> Ac215 [ label="α" ]
+    Pa220 -> Ac216 [ label="α" ]
+    Pa221 -> Ac217 [ label="α" ]
+    Pa222 -> Ac218 [ label="α" ]
+    Pa223 -> Th223 [ label="β" ]
+    Pa223 -> Ac219 [ label="α" ]
+    Pa224 -> Th224 [ label="β" ]
+    Pa224 -> Ac220 [ label="α" ]
+    Pa225 -> Ac221 [ label="α" ]
+    Pa226 -> Th226 [ label="β" ]
+    Pa226 -> Ac222 [ label="α" ]
+    Pa227 -> Ac223 [ label="α" ]
+    Pa227 -> Th227 [ label="ε" ]
+    Pa228 -> Th228 [ label="β" ]
+    Pa228 -> Ac224 [ label="α" ]
+    Pa229 -> Ac225 [ label="α" ]
+    Pa229 -> Th229 [ label="ε" ]
+    Pa230 -> Th230 [ label="β" ]
+    Pa230 -> Ac226 [ label="α" ]
+    Pa231 -> Ac227 [ label="α" ]
+    Th219 -> Ra215 [ label="α" ]
+    Th220 -> Ra216 [ label="α" ]
+    Th221 -> Ra217 [ label="α" ]
+    Th222 -> Ra218 [ label="α" ]
+    Th223 -> Ra219 [ label="α" ]
+    Th224 -> Ra220 [ label="α" ]
+    Th225 -> Ra221 [ label="α" ]
+    Th225 -> Ac225 [ label="ε" ]
+    Th226 -> Ra222 [ label="α" ]
+    Th227 -> Ra223 [ label="α" ]
+    // 228 -> cluster decay to O+Pb
+    Th228 -> Ra224 [ label="α" ]
+    Th229 -> Ra225 [ label="α" ]
+    Th230 -> Ra226 [ label="α" ]
+    Th232 -> Ra228 [ label="α" ]
+    Ac207 -> Fr203 [ label="α" ]
+    Ac208 -> Fr204 [ label="α" ]
+    Ac208 -> Ra208 [ label="β" ]
+    Ac209 -> Fr205 [ label="α" ]
+    Ac209 -> Ra209 [ label="β" ]
+    Ac210 -> Fr206 [ label="α" ]
+    Ac210 -> Ra210 [ label="β" ]
+    Ac211 -> Fr207 [ label="α" ]
+    Ac211 -> Ra211 [ label="β" ]
+    Ac212 -> Fr208 [ label="α" ]
+    Ac212 -> Ra212 [ label="β" ]
+    Ac213 -> Fr209 [ label="α" ]
+    Ac213 -> Ra213 [ label="β" ]
+    Ac214 -> Fr210 [ label="α" ]
+    Ac214 -> Ra214 [ label="β" ]
+    Ac215 -> Fr211 [ label="α" ]
+    Ac215 -> Ra215 [ label="β" ]
+    Ac216 -> Fr212 [ label="α" ]
+    Ac216 -> Ra216 [ label="β" ]
+    Ac217 -> Fr213 [ label="α" ]
+    Ac217 -> Ra217 [ label="β" ]
+    Ac218 -> Fr214 [ label="α" ]
+    Ac219 -> Fr215 [ label="α" ]
+    Ac219 -> Ra219 [ label="β" ]
+    Ac220 -> Fr216 [ label="α" ]
+    Ac220 -> Ra220 [ label="β" ]
+    Ac221 -> Fr217 [ label="α" ]
+    Ac222 -> Fr218 [ label="α" ]
+    Ac222 -> Ra222 [ label="β" ]
+    Ac223 -> Fr219 [ label="α" ]
+    Ac223 -> Ra223 [ label="ε" ]
+    Ac224 -> Ra224 [ label="β" ]
+    Ac224 -> Fr220 [ label="α" ]
+    Ac225 -> Fr221 [ label="α" ]
+    Ac226 -> Fr222 [ label="α" ]
+    Ac226 -> Ra226 [ label="ε" ]
+    Ac227 -> Fr223 [ label="α" ]
+    Ac228 -> Fr224 [ label="α" ]
+    Ra208 -> Fr208 [ label="β" ]
+    Ra208 -> Rn204 [ label="α" ]
+    Ra209 -> Fr209 [ label="β" ]
+    Ra209 -> Rn205 [ label="α" ]
+    Ra210 -> Fr210 [ label="β" ]
+    Ra210 -> Rn206 [ label="α" ]
+    Ra211 -> Fr211 [ label="β" ]
+    Ra211 -> Rn207 [ label="α" ]
+    Ra212 -> Fr212 [ label="β" ]
+    Ra212 -> Rn208 [ label="α" ]
+    Ra213 -> Fr213 [ label="β" ]
+    Ra213 -> Rn209 [ label="α" ]
+    Ra214 -> Fr214 [ label="β" ]
+    Ra214 -> Rn210 [ label="α" ]
+    Ra215 -> Rn211 [ label="α" ]
+    Ra216 -> Rn212 [ label="α" ]
+    Ra216 -> Fr216 [ label="ε" ]
+    Ra217 -> Rn213 [ label="α" ]
+    Ra218 -> Rn214 [ label="α" ]
+    Ra219 -> Rn215 [ label="α" ]
+    Ra220 -> Rn216 [ label="α" ]
+    Ra221 -> Rn217 [ label="α" ]
+    Ra222 -> Rn218 [ label="α" ]
+    Ra223 -> Rn219 [ label="α" ]
+    Ra224 -> Rn220 [ label="α" ]
+    Ra225 -> Rn221 [ label="α" ]
+    Ra226 -> Rn222 [ label="α" ]
+    Fr197 -> At193 [ label="α" ]
+    Fr198 -> At194 [ label="α" ]
+    Fr199 -> At195 [ label="α" ]
+    Fr200 -> At196 [ label="α" ]
+    Fr201 -> At197 [ label="α" ]
+    Fr201 -> Rn201 [ label="β" ]
+    Fr202 -> At198 [ label="α" ]
+    Fr202 -> Rn202 [ label="β" ]
+    Fr203 -> At199 [ label="α" ]
+    Fr203 -> Rn203 [ label="β" ]
+    Fr204 -> At200 [ label="α" ]
+    Fr204 -> Rn204 [ label="β" ]
+    Fr205 -> At201 [ label="α" ]
+    Fr205 -> Rn205 [ label="β" ]
+    Fr206 -> At202 [ label="α" ]
+    Fr206 -> Rn206 [ label="β" ]
+    Fr207 -> At203 [ label="α" ]
+    Fr207 -> Rn207 [ label="β" ]
+    Fr208 -> At204 [ label="α" ]
+    Fr208 -> Rn208 [ label="β" ]
+    Fr209 -> At205 [ label="α" ]
+    Fr209 -> Rn209 [ label="β" ]
+    Fr210 -> At206 [ label="α" ]
+    Fr210 -> Rn210 [ label="β" ]
+    Fr211 -> At207 [ label="α" ]
+    Fr211 -> Rn211 [ label="β" ]
+    Fr212 -> At208 [ label="α" ]
+    Fr212 -> Rn212 [ label="β" ]
+    Fr213 -> At209 [ label="α" ]
+    Fr213 -> Rn213 [ label="β" ]
+    Fr214 -> At210 [ label="α" ]
+    Fr215 -> At211 [ label="α" ]
+    Fr216 -> At212 [ label="α" ]
+    Fr216 -> Rn216 [ label="β" ]
+    Fr217 -> At213 [ label="α" ]
+    Fr218 -> At214 [ label="α" ]
+    Fr219 -> At215 [ label="α" ]
+    Fr220 -> At216 [ label="α" ]
+    Fr221 -> At217 [ label="α" ]
+    Fr223 -> At219 [ label="α" ]
+    Rn196 -> Po192 [ label="α" ]
+    Rn196 -> At196 [ label="β" ]
+    Rn197 -> Po193 [ label="α" ]
+    Rn197 -> At197 [ label="β" ]
+    Rn198 -> Po194 [ label="α" ]
+    Rn198 -> At198 [ label="β" ]
+    Rn199 -> Po195 [ label="α" ]
+    Rn199 -> At199 [ label="β" ]
+    Rn200 -> Po196 [ label="α" ]
+    Rn200 -> At200 [ label="β" ]
+    Rn201 -> Po197 [ label="α" ]
+    Rn201 -> At201 [ label="β" ]
+    Rn202 -> Po198 [ label="α" ]
+    Rn202 -> At202 [ label="β" ]
+    Rn203 -> Po199 [ label="α" ]
+    Rn203 -> At203 [ label="β" ]
+    Rn204 -> Po200 [ label="α" ]
+    Rn204 -> At204 [ label="β" ]
+    Rn205 -> Po201 [ label="α" ]
+    Rn205 -> At205 [ label="β" ]
+    Rn206 -> Po202 [ label="α" ]
+    Rn206 -> At206 [ label="β" ]
+    Rn207 -> Po203 [ label="α" ]
+    Rn207 -> At207 [ label="β" ]
+    Rn208 -> Po204 [ label="α" ]
+    Rn208 -> At208 [ label="β" ]
+    Rn209 -> Po205 [ label="α" ]
+    Rn209 -> At209 [ label="β" ]
+    Rn210 -> Po206 [ label="α" ]
+    Rn210 -> At210 [ label="β" ]
+    Rn211 -> Po207 [ label="α" ]
+    Rn211 -> At211 [ label="β" ]
+    Rn212 -> Po208 [ label="α" ]
+    Rn213 -> Po209 [ label="α" ]
+    Rn214 -> Po210 [ label="α" ]
+    Rn215 -> Po211 [ label="α" ]
+    Rn216 -> Po212 [ label="α" ]
+    Rn217 -> Po213 [ label="α" ]
+    Rn218 -> Po214 [ label="α" ]
+    Rn219 -> Po215 [ label="α" ]
+    Rn220 -> Po216 [ label="α" ]
+    Rn221 -> Po217 [ label="α" ]
+    Rn222 -> Po218 [ label="α" ]
+    At193 -> Bi189 [ label="α" ]
+    At194 -> Bi190 [ label="α" ]
+    At194 -> Po194 [ label="β" ]
+    At195 -> Bi191 [ label="α" ]
+    At195 -> Po195 [ label="β" ]
+    At196 -> Bi192 [ label="α" ]
+    At196 -> Po196 [ label="β" ]
+    At197 -> Bi193 [ label="α" ]
+    At197 -> Po197 [ label="β" ]
+    At198 -> Bi194 [ label="α" ]
+    At198 -> Po198 [ label="β" ]
+    At199 -> Bi195 [ label="α" ]
+    At199 -> Po199 [ label="β" ]
+    At200 -> Bi196 [ label="α" ]
+    At200 -> Po200 [ label="β" ]
+    At201 -> Bi197 [ label="α" ]
+    At201 -> Po201 [ label="β" ]
+    At202 -> Bi198 [ label="α" ]
+    At202 -> Po202 [ label="β" ]
+    At203 -> Bi199 [ label="α" ]
+    At203 -> Po203 [ label="β" ]
+    At204 -> Bi200 [ label="α" ]
+    At204 -> Po204 [ label="β" ]
+    At205 -> Bi201 [ label="α" ]
+    At205 -> Po205 [ label="β" ]
+    At206 -> Bi202 [ label="α" ]
+    At206 -> Po206 [ label="β" ]
+    At207 -> Bi203 [ label="α" ]
+    At207 -> Po207 [ label="β" ]
+    At208 -> Bi204 [ label="α" ]
+    At208 -> Po208 [ label="β" ]
+    At209 -> Bi205 [ label="α" ]
+    At209 -> Po209 [ label="β" ]
+    At210 -> Po210 [ label="β" ]
+    At210 -> Bi206 [ label="α" ]
+    At211 -> Po211 [ label="ε" ]
+    At211 -> Bi207 [ label="α" ]
+    At212 -> Bi208 [ label="α" ]
+    At212 -> Po212 [ label="β" ]
+    At213 -> Bi209 [ label="α" ]
+    At214 -> Bi210 [ label="α" ]
+    At215 -> Bi211 [ label="α" ]
+    At216 -> Bi212 [ label="α" ]
+    At216 -> Po216 [ label="ε" ]
+    At217 -> Bi213 [ label="α" ]
+    At218 -> Bi214 [ label="α" ]
+    At219 -> Bi215 [ label="α" ]
+    At220 -> Bi216 [ label="α" ]
+    Po192 -> Pb188 [ label="α" ]
+    Po193 -> Pb189 [ label="α" ]
+    Po193 -> Bi193 [ label="β" ]
+    Po194 -> Pb190 [ label="α" ]
+    Po194 -> Bi194 [ label="β" ]
+    Po195 -> Pb191 [ label="α" ]
+    Po195 -> Bi195 [ label="β" ]
+    Po196 -> Pb192 [ label="α" ]
+    Po196 -> Bi196 [ label="β" ]
+    Po197 -> Pb193 [ label="α" ]
+    Po197 -> Bi197 [ label="β" ]
+    Po198 -> Pb194 [ label="α" ]
+    Po198 -> Bi198 [ label="β" ]
+    Po199 -> Pb195 [ label="α" ]
+    Po199 -> Bi199 [ label="β" ]
+    Po200 -> Pb196 [ label="α" ]
+    Po200 -> Bi200 [ label="β" ]
+    Po201 -> Pb197 [ label="α" ]
+    Po201 -> Bi201 [ label="β" ]
+    Po202 -> Pb198 [ label="α" ]
+    Po202 -> Bi202 [ label="β" ]
+    Po203 -> Pb199 [ label="α" ]
+    Po203 -> Bi203 [ label="β" ]
+    Po204 -> Pb200 [ label="α" ]
+    Po204 -> Bi204 [ label="β" ]
+    Po205 -> Pb201 [ label="α" ]
+    Po205 -> Bi205 [ label="β" ]
+    Po206 -> Pb202 [ label="α" ]
+    Po206 -> Bi206 [ label="β" ]
+    Po207 -> Pb203 [ label="α" ]
+    Po207 -> Bi207 [ label="β" ]
+    Po208 -> Pb204 [ label="α" ]
+    Po208 -> Bi208 [ label="β" ]
+    Po209 -> Pb205 [ label="α" ]
+    Po209 -> Bi209 [ label="ε" ]
+    Po210 -> Pb206 [ label="α" ]
+    Po211 -> Pb207 [ label="α" ]
+    Po212 -> Pb208 [ label="α" ]
+    Po213 -> Pb209 [ label="α" ]
+    Po214 -> Pb210 [ label="α" ]
+    Po215 -> Pb211 [ label="α" ]
+    Po216 -> Pb212 [ label="α" ]
+    Po217 -> Pb213 [ label="α" ]
+    Po218 -> Pb214 [ label="α" ]
+    Po219 -> Pb215 [ label="α" ]
+    Bi184 -> Tl180 [ label="α" ]
+    Bi185 -> Tl181 [ label="α" ]
+    Bi186 -> Tl182 [ label="α" ]
+    Bi186 -> Pb186 [ label="β" ]
+    Bi187 -> Tl183 [ label="α" ]
+    Bi187 -> Pb187 [ label="β" ]
+    Bi188 -> Tl184 [ label="α" ]
+    Bi188 -> Pb188 [ label="β" ]
+    Bi189 -> Tl185 [ label="α" ]
+    Bi189 -> Pb189 [ label="β" ]
+    Bi190 -> Tl186 [ label="α" ]
+    Bi190 -> Pb190 [ label="β" ]
+    Bi191 -> Tl187 [ label="α" ]
+    Bi191 -> Pb191 [ label="β" ]
+    Bi192 -> Tl188 [ label="α" ]
+    Bi192 -> Pb192 [ label="β" ]
+    Bi193 -> Tl189 [ label="α" ]
+    Bi193 -> Pb193 [ label="β" ]
+    Bi194 -> Tl190 [ label="α" ]
+    Bi194 -> Pb194 [ label="β" ]
+    Bi195 -> Pb195 [ label="β" ]
+    Bi195 -> Tl191 [ label="α" ]
+    Bi196 -> Pb196 [ label="β" ]
+    Bi196 -> Tl192 [ label="α" ]
+    Bi197 -> Pb197 [ label="β" ]
+    Bi197 -> Tl193 [ label="α" ]
+    Bi198 -> Pb198 [ label="β" ]
+    Bi199 -> Pb199 [ label="β" ]
+    Bi200 -> Pb200 [ label="β" ]
+    Bi201 -> Pb201 [ label="β" ]
+    Bi201 -> Tl197 [ label="α" ]
+    Bi202 -> Pb202 [ label="β" ]
+    Bi202 -> Tl198 [ label="α" ]
+    Bi203 -> Pb203 [ label="β" ]
+    Bi203 -> Tl199 [ label="α" ]
+    Bi204 -> Pb204 [ label="β" ]
+    Bi205 -> Pb205 [ label="β" ]
+    Bi206 -> Pb206 [ label="β" ]
+    Bi207 -> Pb207 [ label="β" ]
+    Bi208 -> Pb208 [ label="β" ]
+    Bi209 -> Tl205 [ label="α" ]
+    Bi210 -> Tl206 [ label="α" ]
+    Bi213 -> Tl209 [ label="α" ]
+    Bi214 -> Tl210 [ label="α" ]
+    Pb187 -> Tl187 [ label="ε" ]
+    Pb187 -> Hg183 [ label="α" ]
+    Pb188 -> Hg184 [ label="α" ]
+    Pb189 -> Tl189 [ label="β" ]
+    Pb190 -> Tl190 [ label="β" ]
+    Pb190 -> Hg186 [ label="α" ]
+    Pb191 -> Hg187 [ label="α" ]
+    Pb191 -> Tl191 [ label="β" ]
+    Pb192 -> Hg188 [ label="α" ]
+    Pb192 -> Tl192 [ label="β" ]
+    Pb193 -> Tl193 [ label="β" ]
+    Pb194 -> Hg190 [ label="α" ]
+    Pb194 -> Tl194 [ label="β" ]
+    Pb195 -> Tl195 [ label="β" ]
+    Pb196 -> Hg192 [ label="α" ]
+    Pb196 -> Tl196 [ label="β" ]
+    Pb197 -> Tl197 [ label="β" ]
+    Pb198 -> Tl198 [ label="β" ]
+    Pb199 -> Tl199 [ label="β" ]
+    Pb200 -> Tl200 [ label="β" ]
+    Pb201 -> Tl201 [ label="β" ]
+    Pb202 -> Hg198 [ label="α" ]
+    Pb202 -> Tl202 [ label="ε" ]
+    Pb203 -> Tl203 [ label="ε" ]
+    Pb205 -> Tl205 [ label="ε" ]
+    Tl178 -> Au174 [ label="α" ]
+    Tl178 -> Hg178 [ label="β" ]
+    Tl179 -> Au175 [ label="α" ]
+    Tl179 -> Hg179 [ label="β" ]
+    Tl180 -> Au176 [ label="α" ]
+    Tl180 -> Hg180 [ label="β" ]
+    Tl181 -> Au177 [ label="α" ]
+    Tl181 -> Hg181 [ label="β" ]
+    Tl182 -> Au178 [ label="α" ]
+    Tl182 -> Hg182 [ label="β" ]
+    Tl183 -> Au179 [ label="α" ]
+    Tl183 -> Hg183 [ label="ε" ]
+    Tl184 -> Au180 [ label="α" ]
+    Tl184 -> Hg184 [ label="ε" ]
+    Tl185 -> Au181 [ label="α" ]
+    Tl185 -> Hg185 [ label="β" ]
+    Tl186 -> Au182 [ label="α" ]
+    Tl186 -> Hg186 [ label="β" ]
+    Tl187 -> Au183 [ label="α" ]
+    Tl187 -> Hg187 [ label="β" ]
+    Tl188 -> Hg188 [ label="β" ]
+    Tl189 -> Hg189 [ label="β" ]
+    Tl190 -> Hg190 [ label="β" ]
+    Tl191 -> Hg191 [ label="β" ]
+    Tl192 -> Hg192 [ label="β" ]
+    Tl193 -> Hg193 [ label="β" ]
+    Tl194 -> Au190 [ label="α" ]
+    Tl194 -> Hg194 [ label="β" ]
+    Tl195 -> Hg195 [ label="β" ]
+    Tl196 -> Hg196 [ label="β" ]
+    Tl197 -> Hg197 [ label="β" ]
+    Tl198 -> Hg198 [ label="β" ]
+    Tl199 -> Hg199 [ label="β" ]
+    Tl200 -> Hg200 [ label="β" ]
+    Tl201 -> Hg201 [ label="ε" ]
+    Tl202 -> Hg202 [ label="β" ]
+    Tl204 -> Hg204 [ label="ε" ]
+    Hg171 -> Pt167 [ label="α" ]
+    Hg182 -> Au182 [ label="ε" ]
+    Hg182 -> Pt178 [ label="α" ]
+    Hg183 -> Au183 [ label="ε" ]
+    Hg183 -> Pt179 [ label="α" ]
+    Hg184 -> Au184 [ label="β" ]
+    Hg184 -> Pt180 [ label="α" ]
+    Hg185 -> Au185 [ label="ε" ]
+    Hg185 -> Pt181 [ label="α" ]
+    Hg186 -> Au186 [ label="β" ]
+    Hg186 -> Pt182 [ label="α" ]
+    Hg187 -> Au187 [ label="β" ]
+    Hg187 -> Pt183 [ label="α" ]
+    Hg188 -> Au188 [ label="β" ]
+    Hg188 -> Pt184 [ label="α" ]
+    Hg189 -> Au189 [ label="β" ]
+    Hg189 -> Pt185 [ label="α" ]
+    Hg190 -> Au190 [ label="β" ]
+    Hg190 -> Pt186 [ label="α" ]
+    Hg191 -> Au191 [ label="ε" ]
+    Hg192 -> Au192 [ label="ε" ]
+    Hg192 -> Pt188 [ label="α" ]
+    Hg193 -> Au193 [ label="β" ]
+    Hg194 -> Au194 [ label="ε" ]
+    Hg195 -> Au195 [ label="β" ]
+    Hg197 -> Au197 [ label="ε" ]
+    //Au171 -> Pt170 [ label="p" ]
+    Au171 -> Ir167 [ label="α" ]
+    Au178 -> Pt178 [ label="ε" ]
+    Au178 -> Ir174 [ label="α" ]
+    Au179 -> Pt179 [ label="ε" ]
+    Au179 -> Ir175 [ label="α" ]
+    Au180 -> Pt180 [ label="ε" ]
+    Au180 -> Ir176 [ label="α" ]
+    Au181 -> Pt181 [ label="ε" ]
+    Au181 -> Ir177 [ label="α" ]
+    Au182 -> Pt182 [ label="ε" ]
+    Au182 -> Ir178 [ label="α" ]
+    Au183 -> Pt183 [ label="ε" ]
+    Au183 -> Ir179 [ label="α" ]
+    Au185 -> Pt185 [ label="ε" ]
+    Au185 -> Ir181 [ label="α" ]
+    Au186 -> Pt186 [ label="ε" ]
+    Au187 -> Pt187 [ label="ε" ]
+    Au187 -> Ir183 [ label="α" ]
+    Au190 -> Pt190 [ label="β" ]
+    Au191 -> Pt191 [ label="ε" ]
+    Au192 -> Pt192 [ label="β" ]
+    Au194 -> Pt194 [ label="β" ]
+    Au195 -> Pt195 [ label="ε" ]
+    Au196 -> Pt196 [ label="ε" ]
+    Pt165 -> Os161 [ label="α" ]
+    Pt166 -> Os162 [ label="α" ]
+    Pt167 -> Os163 [ label="α" ]
+    Pt168 -> Ir168 [ label="β" ]
+    Pt168 -> Os164 [ label="α" ]
+    Pt169 -> Ir169 [ label="β" ]
+    Pt169 -> Os165 [ label="α" ]
+    Pt170 -> Ir170 [ label="β" ]
+    Pt170 -> Os166 [ label="α" ]
+    Pt171 -> Ir171 [ label="β" ]
+    Pt171 -> Os167 [ label="α" ]
+    Pt172 -> Ir172 [ label="β" ]
+    Pt172 -> Os168 [ label="α" ]
+    Pt173 -> Ir173 [ label="β" ]
+    Pt173 -> Os169 [ label="α" ]
+    Pt174 -> Ir174 [ label="β" ]
+    Pt174 -> Os170 [ label="α" ]
+    Pt175 -> Ir175 [ label="β" ]
+    Pt175 -> Os171 [ label="α" ]
+    Pt176 -> Ir176 [ label="β" ]
+    Pt176 -> Os172 [ label="α" ]
+    Pt177 -> Ir177 [ label="β" ]
+    Pt177 -> Os173 [ label="α" ]
+    Pt178 -> Ir178 [ label="β" ]
+    Pt178 -> Os174 [ label="α" ]
+    Pt179 -> Ir179 [ label="β" ]
+    Pt179 -> Os175 [ label="α" ]
+    Pt180 -> Ir180 [ label="β" ]
+    Pt180 -> Os176 [ label="α" ]
+    Pt181 -> Ir181 [ label="ε" ]
+    Pt181 -> Os177 [ label="α" ]
+    Pt182 -> Ir182 [ label="ε" ]
+    Pt182 -> Os178 [ label="α" ]
+    Pt183 -> Ir183 [ label="β" ]
+    Pt183 -> Os179 [ label="α" ]
+    Pt184 -> Ir184 [ label="β" ]
+    Pt184 -> Os180 [ label="α" ]
+    Pt185 -> Ir185 [ label="β" ]
+    Pt185 -> Os181 [ label="α" ]
+    Pt186 -> Ir186 [ label="β" ]
+    Pt186 -> Os182 [ label="α" ]
+    Pt187 -> Ir187 [ label="β" ]
+    Pt188 -> Os184 [ label="α" ]
+    Pt188 -> Ir188 [ label="ε" ]
+    Pt189 -> Ir189 [ label="β" ]
+    Pt190 -> Os186 [ label="α" ]
+    Pt191 -> Ir191 [ label="ε" ]
+    Pt193 -> Ir193 [ label="ε" ]
+    Ir167 -> Re163 [ label="α" ]
+    //Ir167 -> Os166 [ label="p" ]
+    Ir172 -> Os172 [ label="β" ]
+    Ir172 -> Re168 [ label="α" ]
+    Ir174 -> Os174 [ label="ε" ]
+    Ir174 -> Re170 [ label="α" ]
+    Ir175 -> Os175 [ label="ε" ]
+    Ir175 -> Re171 [ label="α" ]
+    Ir176 -> Os176 [ label="ε" ]
+    Ir176 -> Re172 [ label="α" ]
+    Ir177 -> Os177 [ label="ε" ]
+    Ir177 -> Re173 [ label="α" ]
+    Ir178 -> Os178 [ label="ε" ]
+    Ir179 -> Os179 [ label="ε" ]
+    Ir181 -> Os181 [ label="ε" ]
+    Ir182 -> Os182 [ label="ε" ]
+    Ir183 -> Os183 [ label="ε" ]
+    Ir185 -> Os185 [ label="ε" ]
+    Ir187 -> Os187 [ label="ε" ]
+    Os161 -> W157 [ label="α" ]
+    Os162 -> W158 [ label="α" ]
+    Os163 -> Re163 [ label="ε" ]
+    Os163 -> W159 [ label="α" ]
+    Os166 -> W162 [ label="α" ]
+    Os166 -> Re166 [ label="ε" ]
+    Os167 -> W163 [ label="α" ]
+    Os167 -> Re167 [ label="ε" ]
+    Os168 -> W164 [ label="α" ]
+    Os168 -> Re168 [ label="ε" ]
+    Os169 -> W165 [ label="α" ]
+    Os169 -> Re169 [ label="β" ]
+    Os170 -> W166 [ label="α" ]
+    Os170 -> Re170 [ label="β" ]
+    Os171 -> W167 [ label="α" ]
+    Os171 -> Re171 [ label="β" ]
+    Os172 -> W168 [ label="α" ]
+    Os172 -> Re172 [ label="β" ]
+    Os173 -> W169 [ label="α" ]
+    Os173 -> Re173 [ label="β" ]
+    Os174 -> W170 [ label="α" ]
+    Os174 -> Re174 [ label="β" ]
+    Os175 -> Re175 [ label="β" ]
+    Os176 -> Re176 [ label="β" ]
+    Os177 -> Re177 [ label="ε" ]
+    Os178 -> Re178 [ label="ε" ]
+    Os179 -> Re179 [ label="ε" ]
+    Os181 -> Re181 [ label="ε" ]
+    Os182 -> Re182 [ label="ε" ]
+    Os183 -> Re183 [ label="ε" ]
+    Os185 -> Re185 [ label="ε" ]
+    Os186 -> W182 [ label="α" ]
+    //Re160 -> W159 [ label="p" ]
+    Re160 -> Ta156 [ label="α" ]
+    Re163 -> Ta159 [ label="α" ]
+    Re163 -> W163 [ label="ε" ]
+    Re165 -> W165 [ label="β" ]
+    Re165 -> Ta161 [ label="α" ]
+    Re166 -> W166 [ label="β" ]
+    Re166 -> Ta162 [ label="α" ]
+    Re167 -> W167 [ label="β" ]
+    Re167 -> Ta163 [ label="α" ]
+    Re168 -> W168 [ label="β" ]
+    Re168 -> Ta164 [ label="α" ]
+    Re169 -> W169 [ label="β" ]
+    Re169 -> Ta165 [ label="α" ]
+    Re170 -> W170 [ label="ε" ]
+    Re171 -> W171 [ label="ε" ]
+    Re172 -> W172 [ label="β" ]
+    Re173 -> W173 [ label="ε" ]
+    Re174 -> W174 [ label="ε" ]
+    Re175 -> W175 [ label="ε" ]
+    Re177 -> W177 [ label="ε" ]
+    Re178 -> W178 [ label="ε" ]
+    Re179 -> W179 [ label="ε" ]
+    Re181 -> W181 [ label="ε" ]
+    Re182 -> W182 [ label="ε" ]
+    Re183 -> W183 [ label="ε" ]
+    Re187 -> Ta183 [ label="α" ]
+    W159 -> Ta159 [ label="ε" ]
+    W159 -> Hf155 [ label="α" ]
+    W162 -> Ta162 [ label="ε" ]
+    W162 -> Hf158 [ label="α" ]
+    W163 -> Ta163 [ label="ε" ]
+    W163 -> Hf159 [ label="α" ]
+    W164 -> Ta164 [ label="β" ]
+    W164 -> Hf160 [ label="α" ]
+    W165 -> Ta165 [ label="β" ]
+    W165 -> Hf161 [ label="α" ]
+    W166 -> Ta166 [ label="β" ]
+    W166 -> Hf162 [ label="α" ]
+    W167 -> Ta167 [ label="β" ]
+    W167 -> Hf163 [ label="α" ]
+    W168 -> Ta168 [ label="β" ]
+    W168 -> Hf164 [ label="α" ]
+    W169 -> Ta169 [ label="β" ]
+    W170 -> Ta170 [ label="ε" ]
+    W171 -> Ta171 [ label="ε" ]
+    W172 -> Ta172 [ label="β" ]
+    W173 -> Ta173 [ label="ε" ]
+    W174 -> Ta174 [ label="ε" ]
+    W175 -> Ta175 [ label="ε" ]
+    W177 -> Ta177 [ label="ε" ]
+    W178 -> Ta178 [ label="ε" ]
+    W179 -> Ta179 [ label="ε" ]
+    W181 -> Ta181 [ label="ε" ]
+    //Ta155 -> Hf154 [ label="p" ]
+    //Ta156 -> Hf155 [ label="p" ]
+    Ta156 -> Hf156 [ label="β" ]
+    Ta157 -> Lu153 [ label="α" ]
+    Ta157 -> Hf157 [ label="β" ]
+    Ta158 -> Lu154 [ label="α" ]
+    Ta158 -> Hf158 [ label="β" ]
+    Ta159 -> Lu155 [ label="α" ]
+    Ta159 -> Hf159 [ label="ε" ]
+    Ta160 -> Lu156 [ label="α" ]
+    Ta160 -> Hf160 [ label="β" ]
+    Ta161 -> Lu157 [ label="α" ]
+    Ta161 -> Hf161 [ label="β" ]
+    Ta162 -> Lu158 [ label="α" ]
+    Ta162 -> Hf162 [ label="β" ]
+    Ta163 -> Lu159 [ label="α" ]
+    Ta163 -> Hf163 [ label="β" ]
+    Ta164 -> Hf164 [ label="β" ]
+    Ta165 -> Hf165 [ label="β" ]
+    Ta166 -> Hf166 [ label="β" ]
+    Ta167 -> Hf167 [ label="β" ]
+    Ta168 -> Hf168 [ label="β" ]
+    Ta169 -> Hf169 [ label="β" ]
+    Ta170 -> Hf170 [ label="β" ]
+    Ta171 -> Hf171 [ label="β" ]
+    Ta172 -> Hf172 [ label="β" ]
+    Ta173 -> Hf173 [ label="β" ]
+    Ta174 -> Hf174 [ label="ε" ]
+    Ta175 -> Hf175 [ label="ε" ]
+    Ta177 -> Hf177 [ label="ε" ]
+    Ta178 -> Hf178 [ label="ε" ]
+    Ta179 -> Hf179 [ label="ε" ]
+    Ta180 -> Hf180 [ label="ε" ]
+    Hf154 -> Lu154 [ label="β" ]
+    Hf154 -> Yb150 [ label="α" ]
+    Hf155 -> Lu155 [ label="β" ]
+    Hf155 -> Yb151 [ label="α" ]
+    Hf156 -> Lu156 [ label="β" ]
+    Hf156 -> Yb152 [ label="α" ]
+    Hf157 -> Lu157 [ label="β" ]
+    Hf157 -> Yb153 [ label="α" ]
+    Hf158 -> Lu158 [ label="ε" ]
+    Hf158 -> Yb154 [ label="α" ]
+    Hf159 -> Lu159 [ label="ε" ]
+    Hf159 -> Yb155 [ label="α" ]
+    Hf160 -> Lu160 [ label="β" ]
+    Hf160 -> Yb156 [ label="α" ]
+    Hf161 -> Lu161 [ label="β" ]
+    Hf161 -> Yb157 [ label="α" ]
+    Hf162 -> Lu162 [ label="β" ]
+    Hf162 -> Yb158 [ label="α" ]
+    Hf163 -> Lu163 [ label="β" ]
+    Hf164 -> Lu164 [ label="β" ]
+    Hf165 -> Lu165 [ label="β" ]
+    Hf166 -> Lu166 [ label="β" ]
+    Hf167 -> Lu167 [ label="β" ]
+    Hf168 -> Lu168 [ label="β" ]
+    Hf169 -> Lu169 [ label="β" ]
+    Hf170 -> Lu170 [ label="ε" ]
+    Hf171 -> Lu171 [ label="ε" ]
+    Hf172 -> Lu172 [ label="ε" ]
+    Hf173 -> Lu173 [ label="β" ]
+    Hf174 -> Yb170 [ label="α" ]
+    Hf175 -> Lu175 [ label="ε" ]
+    //Lu151 -> Yb150 [ label="p" ]
+    Lu154 -> Yb154 [ label="ε" ]
+    Lu155 -> Tm151 [ label="α" ]
+    Lu155 -> Yb155 [ label="ε" ]
+    Lu158 -> Tm154 [ label="α" ]
+    Lu158 -> Yb158 [ label="ε" ]
+    Lu159 -> Tm155 [ label="α" ]
+    Lu159 -> Yb159 [ label="ε" ]
+    Lu163 -> Yb163 [ label="ε" ]
+    Lu169 -> Yb169 [ label="ε" ]
+    Lu170 -> Yb170 [ label="ε" ]
+    Lu171 -> Yb171 [ label="ε" ]
+    Lu173 -> Yb173 [ label="ε" ]
+    Yb150 -> Tm150 [ label="β" ]
+    Yb151 -> Tm151 [ label="ε" ]
+    Yb154 -> Er150 [ label="α" ]
+    Yb154 -> Tm154 [ label="ε" ]
+    Yb155 -> Er151 [ label="α" ]
+    Yb155 -> Tm155 [ label="ε" ]
+    Yb158 -> Tm158 [ label="ε" ]
+    Yb158 -> Er154 [ label="α" ]
+    Yb159 -> Tm159 [ label="ε" ]
+    Yb163 -> Tm163 [ label="ε" ]
+    Yb169 -> Tm169 [ label="ε" ]
+    Tm150 -> Er150 [ label="β" ]
+    Tm151 -> Er151 [ label="ε" ]
+    Tm154 -> Er154 [ label="ε" ]
+    Tm155 -> Er155 [ label="ε" ]
+    Tm158 -> Er158 [ label="ε" ]
+    Tm159 -> Er159 [ label="ε" ]
+    Tm163 -> Er163 [ label="ε" ]
+    Fm252 -> Es252 [ label="β-" dir=back ]
+    Es253 -> Cf253 [ label="β-" dir=back ]
+    Es255 -> Cf255 [ label="β-" dir=back ]
+    Cf249 -> Bk249 [ label="β-" dir=back ]
+    Cf250 -> Bk250 [ label="β-" dir=back ]
+    Cf251 -> Bk251 [ label="β-" dir=back ]
+    Bk249 -> Cm249 [ label="β-" dir=back ]
+    Bk250 -> Cm250 [ label="β-" dir=back ]
+    Bk251 -> Cm251 [ label="β-" dir=back ]
+    Cm242 -> Am242 [ label="β-" dir=back ]
+    Cm244 -> Am244 [ label="β-" dir=back ]
+    Cm245 -> Am245 [ label="β-" dir=back ]
+    Cm246 -> Am246 [ label="β-" dir=back ]
+    Cm247 -> Am247 [ label="β-" dir=back ]
+    Am241 -> Pu241 [ label="β-" dir=back ]
+    Am243 -> Pu243 [ label="β-" dir=back ]
+    Am245 -> Pu245 [ label="β-" dir=back ]
+    Am246 -> Pu246 [ label="β-" dir=back ]
+    Am247 -> Pu247 [ label="β-" dir=back ]
+    //Pu238 -> U238 [ label="β-β-" dir=back ]
+    Pu236 -> Np236 [ label="β-" dir=back ]
+    Pu238 -> Np238 [ label="β-" dir=back ]
+    Pu239 -> Np239 [ label="β-" dir=back ]
+    Pu240 -> Np240 [ label="β-" dir=back ]
+    Pu241 -> Np241 [ label="β-" dir=back ]
+    Pu242 -> Np242 [ label="β-" dir=back ]
+    Pu243 -> Np243 [ label="β-" dir=back ]
+    Pu244 -> Np244 [ label="β-" dir=back ]
+    Np237 -> U237 [ label="β-" dir=back ]
+    Np239 -> U239 [ label="β-" dir=back ]
+    Np240 -> U240 [ label="β-" dir=back ]
+    Np241 -> U241 [ label="β-" dir=back ]
+    Np242 -> U242 [ label="β-" dir=back ]
+    U230 -> Pa230 [ label="β-" dir=back ]
+    U232 -> Pa232 [ label="β-" dir=back ]
+    U233 -> Pa233 [ label="β-" dir=back ]
+    U234 -> Pa234 [ label="β-" dir=back ]
+    U235 -> Pa235 [ label="β-" dir=back ]
+    U236 -> Pa236 [ label="β-" dir=back ]
+    U237 -> Pa237 [ label="β-" dir=back ]
+    U238 -> Pa238 [ label="β-" dir=back ]
+    U239 -> Pa239 [ label="β-" dir=back ]
+    Pa231 -> Th231 [ label="β-" dir=back ]
+    Pa233 -> Th233 [ label="β-" dir=back ]
+    Pa234 -> Th234 [ label="β-" dir=back ]
+    Pa235 -> Th235 [ label="β-" dir=back ]
+    Pa236 -> Th236 [ label="β-" dir=back ]
+    Pa237 -> Th237 [ label="β-" dir=back ]
+    Pa238 -> Th238 [ label="β-" dir=back ]
+    Th224 -> Ac224 [ label="β-" dir=back ]
+    Th226 -> Ac226 [ label="β-" dir=back ]
+    Th227 -> Ac227 [ label="β-" dir=back ]
+    Th228 -> Ac228 [ label="β-" dir=back ]
+    Th229 -> Ac229 [ label="β-" dir=back ]
+    Th230 -> Ac230 [ label="β-" dir=back ]
+    Th231 -> Ac231 [ label="β-" dir=back ]
+    Th232 -> Ac232 [ label="β-" dir=back ]
+    Th233 -> Ac233 [ label="β-" dir=back ]
+    Th234 -> Ac234 [ label="β-" dir=back ]
+    Th235 -> Ac235 [ label="β-" dir=back ]
+    Th236 -> Ac236 [ label="β-" dir=back ]
+    Ac225 -> Ra225 [ label="β-" dir=back ]
+    Ac227 -> Ra227 [ label="β-" dir=back ]
+    Ac228 -> Ra228 [ label="β-" dir=back ]
+    Ac229 -> Ra229 [ label="β-" dir=back ]
+    Ac230 -> Ra230 [ label="β-" dir=back ]
+    Ac231 -> Ra231 [ label="β-" dir=back ]
+    Ac232 -> Ra232 [ label="β-" dir=back ]
+    Ac233 -> Ra233 [ label="β-" dir=back ]
+    Ac234 -> Ra234 [ label="β-" dir=back ]
+    Ra220 -> Fr220 [ label="β-" dir=back ]
+    Ra221 -> Fr221 [ label="β-" dir=back ]
+    Ra222 -> Fr222 [ label="β-" dir=back ]
+    Ra223 -> Fr223 [ label="β-" dir=back ]
+    Ra224 -> Fr224 [ label="β-" dir=back ]
+    Ra225 -> Fr225 [ label="β-" dir=back ]
+    Ra226 -> Fr226 [ label="β-" dir=back ]
+    Ra227 -> Fr227 [ label="β-" dir=back ]
+    Ra228 -> Fr228 [ label="β-" dir=back ]
+    Ra229 -> Fr229 [ label="β-" dir=back ]
+    Ra230 -> Fr230 [ label="β-" dir=back ]
+    Ra231 -> Fr231 [ label="β-" dir=back ]
+    Ra232 -> Fr232 [ label="β-" dir=back ]
+    Ra233 -> Fr233 [ label="β-" dir=back ]
+    Fr221 -> Rn221 [ label="β-" dir=back ]
+    Fr223 -> Rn223 [ label="β-" dir=back ]
+    Fr224 -> Rn224 [ label="β-" dir=back ]
+    Fr225 -> Rn225 [ label="β-" dir=back ]
+    Fr226 -> Rn226 [ label="β-" dir=back ]
+    Fr227 -> Rn227 [ label="β-" dir=back ]
+    Fr228 -> Rn228 [ label="β-" dir=back ]
+    Fr229 -> Rn229 [ label="β-" dir=back ]
+    Fr230 -> Rn230 [ label="β-" dir=back ]
+    Fr231 -> Rn231 [ label="β-" dir=back ]
+    Rn212 -> At212 [ label="β-" dir=back ]
+    Rn216 -> At216 [ label="β-" dir=back ]
+    Rn217 -> At217 [ label="β-" dir=back ]
+    Rn218 -> At218 [ label="β-" dir=back ]
+    Rn219 -> At219 [ label="β-" dir=back ]
+    Rn220 -> At220 [ label="β-" dir=back ]
+    Rn221 -> At221 [ label="β-" dir=back ]
+    Rn222 -> At222 [ label="β-" dir=back ]
+    Rn223 -> At223 [ label="β-" dir=back ]
+    Rn224 -> At224 [ label="β-" dir=back ]
+    Rn225 -> At225 [ label="β-" dir=back ]
+    Rn226 -> At226 [ label="β-" dir=back ]
+    Rn227 -> At227 [ label="β-" dir=back ]
+    Rn228 -> At228 [ label="β-" dir=back ]
+    Rn229 -> At229 [ label="β-" dir=back ]
+    At215 -> Po215 [ label="β-" dir=back ]
+    At217 -> Po217 [ label="β-" dir=back ]
+    At218 -> Po218 [ label="β-" dir=back ]
+    At219 -> Po219 [ label="β-" dir=back ]
+    At220 -> Po220 [ label="β-" dir=back ]
+    At221 -> Po221 [ label="β-" dir=back ]
+    At222 -> Po222 [ label="β-" dir=back ]
+    Po210 -> Bi210 [ label="β-" dir=back ]
+    Po211 -> Bi211 [ label="β-" dir=back ]
+    Po212 -> Bi212 [ label="β-" dir=back ]
+    Po213 -> Bi213 [ label="β-" dir=back ]
+    Po214 -> Bi214 [ label="β-" dir=back ]
+    Po215 -> Bi215 [ label="β-" dir=back ]
+    Po216 -> Bi216 [ label="β-" dir=back ]
+    Po217 -> Bi217 [ label="β-" dir=back ]
+    Po218 -> Bi218 [ label="β-" dir=back ]
+    Po219 -> Bi219 [ label="β-" dir=back ]
+    Po220 -> Bi220 [ label="β-" dir=back ]
+    Bi209 -> Pb209 [ label="β-" dir=back ]
+    Bi210 -> Pb210 [ label="β-" dir=back ]
+    Bi211 -> Pb211 [ label="β-" dir=back ]
+    Bi212 -> Pb212 [ label="β-" dir=back ]
+    Bi213 -> Pb213 [ label="β-" dir=back ]
+    Bi214 -> Pb214 [ label="β-" dir=back ]
+    Bi215 -> Pb215 [ label="β-" dir=back ]
+    Pb204 -> Tl204 [ label="β-" dir=back ]
+    Pb206 -> Tl206 [ label="β-" dir=back ]
+    Pb207 -> Tl207 [ label="β-" dir=back ]
+    Pb208 -> Tl208 [ label="β-" dir=back ]
+    Pb209 -> Tl209 [ label="β-" dir=back ]
+    Pb210 -> Tl210 [ label="β-" dir=back ]
+    Tl203 -> Hg203 [ label="β-" dir=back ]
+    Tl205 -> Hg205 [ label="β-" dir=back ]
+    Tl206 -> Hg206 [ label="β-" dir=back ]
+    Tl207 -> Hg207 [ label="β-" dir=back ]
+    Tl208 -> Hg208 [ label="β-" dir=back ]
+    Hg196 -> Au196 [ label="β-" dir=back ]
+    Hg198 -> Au198 [ label="β-" dir=back ]
+    Hg199 -> Au199 [ label="β-" dir=back ]
+    Hg200 -> Au200 [ label="β-" dir=back ]
+    Hg201 -> Au201 [ label="β-" dir=back ]
+    Hg202 -> Au202 [ label="β-" dir=back ]
+    Hg203 -> Au203 [ label="β-" dir=back ]
+    Hg204 -> Au204 [ label="β-" dir=back ]
+    Hg205 -> Au205 [ label="β-" dir=back ]
+    Hg206 -> Au206 [ label="β-" dir=back ]
+    Au204 -> Pt204 [ label="β-" dir=back ]
+    Au203 -> Pt203 [ label="β-" dir=back ]
+    Au202 -> Pt202 [ label="β-" dir=back ]
+    Au201 -> Pt201 [ label="β-" dir=back ]
+    Au200 -> Pt200 [ label="β-" dir=back ]
+    Au199 -> Pt199 [ label="β-" dir=back ]
+    Au197 -> Pt197 [ label="β-" dir=back ]
+    Pt198 -> Ir198 [ label="β-" dir=back ]
+    Ir196 -> Os196 [ label="β-" dir=back ]
+    Ir195 -> Os195 [ label="β-" dir=back ]
+    Ir194 -> Os194 [ label="β-" dir=back ]
+    Ir193 -> Os193 [ label="β-" dir=back ]
+    Ir191 -> Os191 [ label="β-" dir=back ]
+    Os187 -> Re187 [ label="β-" dir=back ]
+    Os191 -> Re191 [ label="β-" dir=back ]
+    Re185 -> W185 [ label="β-" dir=back ]
+    Re187 -> W187 [ label="β-" dir=back ]
+    Re191 -> W191 [ label="β-" dir=back ]
+    W180 -> Ta180 [ label="β-" dir=back ]
+    W182 -> Ta182 [ label="β-" dir=back ]
+    W183 -> Ta183 [ label="β-" dir=back ]
+    W184 -> Ta184 [ label="β-" dir=back ]
+    W185 -> Ta185 [ label="β-" dir=back ]
+    W186 -> Ta186 [ label="β-" dir=back ]
+    W187 -> Ta187 [ label="β-" dir=back ]
+    W188 -> Ta188 [ label="β-" dir=back ]
+    Ta181 -> Hf181 [ label="β-" dir=back ]
+    Ta182 -> Hf182 [ label="β-" dir=back ]
+    Ta183 -> Hf183 [ label="β-" dir=back ]
+    Ta184 -> Hf184 [ label="β-" dir=back ]
+    Ta185 -> Hf185 [ label="β-" dir=back ]
+    Ta186 -> Hf186 [ label="β-" dir=back ]
+    Ta187 -> Hf187 [ label="β-" dir=back ]
+    Lu177 -> Yb177 [ label="β-" dir=back ]
+    Yb177 -> Tm177 [ label="β-" dir=back ]
+    Hf177 -> Lu177 [ label="β-" dir=back ]
+    Hf183 -> Lu183 [ label="β-" dir=back ]
+    Yb171 -> Tm171 [ label="β-" dir=back ]
+    Yb173 -> Tm173 [ label="β-" dir=back ]
+    Tm169 -> Er169 [ label="β-" dir=back ]
+    Tm171 -> Er171 [ label="β-" dir=back ]
+    Tm172 -> Er172 [ label="β-" dir=back ]
+    Tm173 -> Er173 [ label="β-" dir=back ]
+    Tm174 -> Er174 [ label="β-" dir=back ]
+    Tm175 -> Er175 [ label="β-" dir=back ]
+    Tm176 -> Er176 [ label="β-" dir=back ]
+    Tm177 -> Er177 [ label="β-" dir=back ]
+    Tm178 -> Er178 [ label="β-" dir=back ]
+    Tm179 -> Er179 [ label="β-" dir=back ]
+    Tm180 -> Er180 [ label="β-" dir=back ]
+    Fm241 -> Cf237 [ label="α" ]
+    Fm243 -> Cf239 [ label="α" ]
+    Fm244 -> Cf240 [ label="α" ]
+    Fm245 -> Cf241 [ label="α" ]
+    Fm246 -> Cf242 [ label="α" ]
+    Fm247 -> Cf243 [ label="α" ]
+    Fm248 -> Cf244 [ label="α" ]
+    Fm249 -> Cf245 [ label="α" ]
+    Fm250 -> Cf246 [ label="α" ]
+    Fm251 -> Cf247 [ label="α" ]
+    Fm252 -> Cf248 [ label="α" ]
+    Fm253 -> Cf249 [ label="α" ]
+    Fm254 -> Cf250 [ label="α" ]
+    Fm255 -> Cf251 [ label="α" ]
+    Fm256 -> Cf252 [ label="α" ]
+    Fm257 -> Cf253 [ label="α" ]
+    Es243 -> Bk239 [ label="α" ]
+    Es244 -> Bk240 [ label="α" ]
+    Es245 -> Bk241 [ label="α" ]
+    Es246 -> Bk242 [ label="α" ]
+    Es247 -> Bk243 [ label="α" ]
+    Es248 -> Bk244 [ label="α" ]
+    Es249 -> Bk245 [ label="α" ]
+    Es250 -> Bk246 [ label="α" ]
+    Es251 -> Bk247 [ label="α" ]
+    Es252 -> Bk248 [ label="α" ]
+    Es253 -> Bk249 [ label="α" ]
+    Es255 -> Bk251 [ label="α" ]
+    Cf237 -> Cm233 [ label="α" ]
+    Cf238 -> Cm234 [ label="α" ]
+    Cf239 -> Cm235 [ label="α" ]
+  }
+
+}
