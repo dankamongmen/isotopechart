@@ -220,12 +220,24 @@ digraph decay {
 
   subgraph fluorine {
       node [ style=filled fillcolor=purple height=0.3 width=0.8 shape=rectangle ]
+      F13
+      F14
+      F15
+      F16
+      F17
+      F18
       F19 [ shape=octagon ]
       F20
       F21
       F22
       F23
       F24
+      F13 -> O12 [ label="p" ]
+      F14 -> O13 [ label="p" ]
+      F15 -> O14 [ label="p" ]
+      F16 -> O15 [ label="p" ]
+      F17 -> O17 [ label="β" ]
+      F18 -> O17 [ label="β" ]
       F19 -> O19 [ label="β-" dir=back ]
       F20 -> O20 [ label="β-" dir=back ]
       F21 -> O21 [ label="β-" dir=back ]
@@ -233,6 +245,46 @@ digraph decay {
       F23 -> O23 [ label="β-" dir=back ]
       F24 -> O24 [ label="β-" dir=back ]
     }
+  }
+
+  subgraph fluorine {
+      node [ style=filled fillcolor=honeydew height=0.3 width=0.8 shape=rectangle ]
+      Ne15
+      Ne16
+      Ne17
+      Ne18
+      Ne19
+      Ne20 [ shape=octagon ]
+      Ne21 [ shape=octagon ]
+      Ne22 [ shape=octagon ]
+      Ne23
+      Ne24
+      Ne25
+      Ne26
+      Ne27
+      Ne28
+      Ne29
+      Ne30
+      Ne31
+      Ne32
+      Ne33
+      Ne34
+      Ne15 -> O13 [ label="2p" ]
+      Ne16 -> O14 [ label="2p" ]
+      Ne17 -> F17 [ label="β" ]
+      Ne18 -> F18 [ label="β" ]
+      Ne19 -> F19 [ label="β" ]
+      Ne20 -> F20 [ label="β-" dir=back ]
+      Ne21 -> F21 [ label="β-" dir=back ]
+      Ne22 -> F22 [ label="β-" dir=back ]
+      Ne23 -> F23 [ label="β-" dir=back ]
+      Ne24 -> F24 [ label="β-" dir=back ]
+      Ne25 -> F25 [ label="β-" dir=back ]
+      Ne26 -> F26 [ label="β-" dir=back ]
+      Ne27 -> F27 [ label="β-" dir=back ]
+      Ne29 -> F29 [ label="β-" dir=back ]
+      Ne30 -> F30 [ label="β-" dir=back ]
+      Ne31 -> F31 [ label="β-" dir=back ]
   }
 }
 
