@@ -286,5 +286,106 @@ digraph decay {
       Ne30 -> F30 [ label="β-" dir=back ]
       Ne31 -> F31 [ label="β-" dir=back ]
   }
+
+  subgraph sulfur {
+      node [ style=filled fillcolor=brown height=0.3 width=0.8 shape=rectangle ]
+      S27
+      S28
+      S29
+      S30
+      S31
+      S32 [ shape="octagon" ]
+      S33 [ shape="octagon" ]
+      S34 [ shape="octagon" ]
+      S35
+      S36 [ shape="octagon" ]
+      S37
+      S38
+      S39
+      S40
+      S41
+      S42
+      S43
+      S44
+      S45
+      S46
+      S47
+      S48
+      S49
+  }
+
+  subgraph chlorine {
+      node [ style=filled fillcolor=yellow height=0.3 width=0.8 shape=rectangle ]
+      Cl28
+      Cl29
+      Cl30
+      Cl31
+      Cl32
+      Cl33
+      Cl34
+      Cl35 [ shape="octagon" ]
+      Cl36
+      Cl37 [ shape="octagon" ]
+      Cl38
+      Cl39
+      Cl40
+      Cl41
+      Cl42
+      Cl43
+      Cl44
+      Cl45
+      Cl46
+      Cl47
+      Cl48
+      Cl49
+      Cl50
+      Cl51
+      Cl52
+      Cl28 -> S27 [ label="p" ]
+      Cl29 -> S28 [ label="p" ]
+      Cl30 -> S29 [ label="p" ]
+      Cl31 -> S31 [ label="β" ]
+      Cl32 -> S32 [ label="β" ]
+      Cl33 -> S33 [ label="β" ]
+      Cl34 -> S34 [ label="β" ]
+  }
+
+  subgraph argon {
+      node [ style=filled fillcolor=pink height=0.3 width=0.8 shape=rectangle ]
+      Ar29
+      Ar30
+      Ar31
+      Ar32
+      Ar33
+      Ar34
+      Ar35
+      Ar36 [ shape=octagon ]
+      Ar37
+      Ar38 [ shape=octagon ]
+      Ar39
+      Ar40 [ shape=octagon ]
+      Ar41
+      Ar42
+      Ar43
+      Ar44
+      Ar45
+      Ar46
+      Ar47
+      Ar48
+      Ar49
+      Ar50
+      Ar51
+      Ar52
+      Ar53
+      Ar54
+      Ar29 -> S27 [ label="2p" ]
+      Ar30 -> S28 [ label="2p" ]
+      Ar31 -> Cl31 [ label="β" ]
+      Ar32 -> Cl32 [ label="β" ]
+      Ar33 -> Cl33 [ label="β" ]
+      Ar34 -> Cl34 [ label="β" ]
+      Ar35 -> Cl35 [ label="β" ]
+      Ar37 -> Cl37 [ label="ε" ]
+  }
 }
 
