@@ -15,10 +15,10 @@ digraph decay {
       H7
       //H1 -> He2 [ label="p+" ]
       H4 -> H3 [ label="n" ]
-      H5 -> H3 [ label="2n" ]
+      H5 -> H3 [ label="2n" minlen="2" ]
       H6 -> H5 [ label="n" ]
       H6 -> H3 [ label="3n" ]
-      H7 -> H5 [ label="2n" ]
+      H7 -> H5 [ label="2n" minlen="2" ]
     }
 
     subgraph helium {
@@ -37,7 +37,7 @@ digraph decay {
       He5 -> He4 [ label="n" ]
       He7 -> He6 [ label="n" ]
       He9 -> He8 [ label="n" ]
-      He10 -> He8 [ label="2n" ]
+      He10 -> He8 [ label="2n" minlen="2" ]
       He3 -> H3 [ label="β-" dir=back ]
     }
 
@@ -59,9 +59,9 @@ digraph decay {
       Li5 -> He4 [ label="p" ]
       Li10 -> Li9 [ label="n" ]
       Li12 -> Li11 [ label="n" ]
-      Li13 -> Li11 [ label="2n" ]
-      Li6 -> He6 [ label="β-" dir=back ]
-      Li8 -> He8 [ label="β-" dir=back ]
+      Li13 -> Li11 [ label="2n" minlen="2" ]
+      Li6 -> He6 [ label="β-" ]
+      Li8 -> He8 [ label="β-" ]
     }
 
     subgraph bery {
@@ -79,15 +79,15 @@ digraph decay {
       Be15
       Be16
       Be5 -> Li4 [ label="p" ]
-      Be6 -> He4 [ label="2p" ]
+      Be6 -> He4 [ label="2p" minlen="2" ]
       Be7 -> Li7 [ label="ε" ]
       Be8 -> He4 [ label="α" ]
       Be13 -> Be12 [ label="n" ]
       Be15 -> Be14 [ label="n" ]
-      Be16 -> Be14 [ label="2n" ]
-      Be8 -> Li8 [ label="β-" dir=back ]
-      Be9 -> Li9 [ label="β-" dir=back ]
-      Be11 -> Li11 [ label="β-" dir=back ]
+      Be16 -> Be14 [ label="2n" minlen="2" ]
+      Be8 -> Li8 [ label="β-" dir="back" ]
+      Be9 -> Li9 [ label="β-" dir="back" ]
+      Be11 -> Li11 [ label="β-" dir="back" ]
     }
 
     subgraph boron {
@@ -102,18 +102,18 @@ digraph decay {
       B13
       B14
       B15
-      B6 -> Li6 [ label="2p" ]
+      B6 -> Li6 [ label="2p" minlen="2" ]
       B7 -> Li6 [ label="p" ]
       B8 -> Be8 [ label="β" ]
       B9 -> Be8 [ label="p" ]
       B16 -> B15 [ label="n" ]
       B18 -> B17 [ label="n" ]
       B20 -> B19 [ label="n" ]
-      B21 -> B19 [ label="2n" ]
-      B10 -> Be10 [ label="β-" dir=back ]
-      B11 -> Be11 [ label="β-" dir=back ]
-      B12 -> Be12 [ label="β-" dir=back ]
-      B14 -> Be14 [ label="β-" dir=back ]
+      B21 -> B19 [ label="2n" minlen="2" ]
+      B10 -> Be10 [ label="β-" dir="back" ]
+      B11 -> Be11 [ label="β-" dir="back" ]
+      B12 -> Be12 [ label="β-" dir="back" ]
+      B14 -> Be14 [ label="β-" dir="back" ]
     }
 
     subgraph carbon {
@@ -134,18 +134,18 @@ digraph decay {
       C21
       C22
       C23
-      C8 -> Be6 [ label="2p" ]
+      C8 -> Be6 [ label="2p" minlen="2" ]
       C9 -> B9 [ label="β" ]
       C10 -> B10 [ label="β" ]
       C11 -> B11 [ label="β" ]
       C21 -> C20 [ label="n" ]
       C23 -> C22 [ label="n" ]
-      C12 -> B12 [ label="β-" dir=back ]
-      C13 -> B13 [ label="β-" dir=back ]
-      C14 -> B14 [ label="β-" dir=back ]
-      C15 -> B15 [ label="β-" dir=back ]
-      C17 -> B17 [ label="β-" dir=back ]
-      C19 -> B19 [ label="β-" dir=back ]
+      C12 -> B12 [ label="β-" dir="back" ]
+      C13 -> B13 [ label="β-" dir="back" ]
+      C14 -> B14 [ label="β-" dir="back" ]
+      C15 -> B15 [ label="β-" dir="back" ]
+      C17 -> B17 [ label="β-" dir="back" ]
+      C19 -> B19 [ label="β-" dir="back" ]
     }
 
     subgraph nitrogen {
@@ -162,21 +162,22 @@ digraph decay {
       N18
       N19
       N20
+      N21
       N22
       N23
-      N9 -> He4 [ label="5p" ]
+      N9 -> He4 [ label="5p" minlen="5" ]
       N10 -> C9 [ label="p" ]
       N11 -> C10 [ label="p" ]
       N12 -> C12 [ label="β" ]
       N13 -> C13 [ label="β" ]
-      N14 -> C14 [ label="β-" dir=back ]
-      N15 -> C15 [ label="β-" dir=back ]
-      N16 -> C16 [ label="β-" dir=back ]
-      N17 -> C17 [ label="β-" dir=back ]
-      N18 -> C18 [ label="β-" dir=back ]
-      N19 -> C19 [ label="β-" dir=back ]
-      N20 -> C20 [ label="β-" dir=back ]
-      N22 -> C22 [ label="β-" dir=back ]
+      N14 -> C14 [ label="β-" dir="back" ]
+      N15 -> C15 [ label="β-" dir="back" ]
+      N16 -> C16 [ label="β-" dir="back" ]
+      N17 -> C17 [ label="β-" dir="back" ]
+      N18 -> C18 [ label="β-" dir="back" ]
+      N19 -> C19 [ label="β-" dir="back" ]
+      N20 -> C20 [ label="β-" dir="back" ]
+      N22 -> C22 [ label="β-" dir="back" ]
     }
   
     subgraph oxygen {
@@ -199,159 +200,434 @@ digraph decay {
       O26
       O27
       O28
-      O11 -> C9 [ label="2p" ]
-      O12 -> C10 [ label="2p" ]
+      O11 -> C9 [ label="2p" minlen="2" ]
+      O12 -> C10 [ label="2p" minlen="2" ]
       O13 -> N13 [ label="β" ]
       O14 -> N14 [ label="β" ]
       O15 -> N15 [ label="β" ]
       O25 -> O24 [ label="n" ]
-      O26 -> O24 [ label="2n" ]
-      O27 -> O24 [ label="3n" ]
-      O28 -> O24 [ label="4n" ]
-      O16 -> N16 [ label="β-" dir=back ]
-      O17 -> N17 [ label="β-" dir=back ]
-      O18 -> N18 [ label="β-" dir=back ]
-      O19 -> N19 [ label="β-" dir=back ]
-      O20 -> N20 [ label="β-" dir=back ]
-      O21 -> N21 [ label="β-" dir=back ]
-      O22 -> N22 [ label="β-" dir=back ]
-      O23 -> N23 [ label="β-" dir=back ]
+      O26 -> O24 [ label="2n" minlen="2" ]
+      O27 -> O24 [ label="3n" minlen="3" ]
+      O28 -> O24 [ label="4n" minlen="4" ]
+      O16 -> N16 [ label="β-" dir="back" ]
+      O17 -> N17 [ label="β-" dir="back" ]
+      O18 -> N18 [ label="β-" dir="back" ]
+      O19 -> N19 [ label="β-" dir="back" ]
+      O20 -> N20 [ label="β-" dir="back" ]
+      O21 -> N21 [ label="β-" dir="back" ]
+      O22 -> N22 [ label="β-" dir="back" ]
+      O23 -> N23 [ label="β-" dir="back" ]
     }
 
   subgraph fluorine {
-      node [ style=filled fillcolor=purple height=0.3 width=0.8 shape=rectangle ]
-      F13
-      F14
-      F15
-      F16
-      F17
-      F18
-      F19 [ shape=octagon ]
-      F20
-      F21
-      F22
-      F23
-      F24
-      F13 -> O12 [ label="p" ]
-      F14 -> O13 [ label="p" ]
-      F15 -> O14 [ label="p" ]
-      F16 -> O15 [ label="p" ]
-      F17 -> O17 [ label="β" ]
-      F18 -> O17 [ label="β" ]
-      F19 -> O19 [ label="β-" dir=back ]
-      F20 -> O20 [ label="β-" dir=back ]
-      F21 -> O21 [ label="β-" dir=back ]
-      F22 -> O22 [ label="β-" dir=back ]
-      F23 -> O23 [ label="β-" dir=back ]
-      F24 -> O24 [ label="β-" dir=back ]
-    }
+    node [ style=filled fillcolor=purple height=0.3 width=0.8 shape=rectangle ]
+    F13
+    F14
+    F15
+    F16
+    F17
+    F18
+    F19 [ shape=octagon ]
+    F20
+    F21
+    F22
+    F23
+    F24
+    F25
+    F26
+    F27
+    F28
+    F29
+    F30
+    F31
+    F13 -> O12 [ label="p" ]
+    F14 -> O13 [ label="p" ]
+    F15 -> O14 [ label="p" ]
+    F16 -> O15 [ label="p" ]
+    F17 -> O17 [ label="β" ]
+    F18 -> O18 [ label="β" ]
+    F19 -> O19 [ label="β-" dir="back" ]
+    F20 -> O20 [ label="β-" dir="back" ]
+    F21 -> O21 [ label="β-" dir="back" ]
+    F22 -> O22 [ label="β-" dir="back" ]
+    F23 -> O23 [ label="β-" dir="back" ]
+    F24 -> O24 [ label="β-" dir="back" ]
   }
 
-  subgraph fluorine {
-      node [ style=filled fillcolor=honeydew height=0.3 width=0.8 shape=rectangle ]
-      Ne15
-      Ne16
-      Ne17
-      Ne18
-      Ne19
-      Ne20 [ shape=octagon ]
-      Ne21 [ shape=octagon ]
-      Ne22 [ shape=octagon ]
-      Ne23
-      Ne24
-      Ne25
-      Ne26
-      Ne27
-      Ne28
-      Ne29
-      Ne30
-      Ne31
-      Ne32
-      Ne33
-      Ne34
-      Ne15 -> O13 [ label="2p" ]
-      Ne16 -> O14 [ label="2p" ]
-      Ne17 -> F17 [ label="β" ]
-      Ne18 -> F18 [ label="β" ]
-      Ne19 -> F19 [ label="β" ]
-      Ne20 -> F20 [ label="β-" dir=back ]
-      Ne21 -> F21 [ label="β-" dir=back ]
-      Ne22 -> F22 [ label="β-" dir=back ]
-      Ne23 -> F23 [ label="β-" dir=back ]
-      Ne24 -> F24 [ label="β-" dir=back ]
-      Ne25 -> F25 [ label="β-" dir=back ]
-      Ne26 -> F26 [ label="β-" dir=back ]
-      Ne27 -> F27 [ label="β-" dir=back ]
-      Ne29 -> F29 [ label="β-" dir=back ]
-      Ne30 -> F30 [ label="β-" dir=back ]
-      Ne31 -> F31 [ label="β-" dir=back ]
+  subgraph neon {
+    node [ style=filled fillcolor=honeydew height=0.3 width=0.8 shape=rectangle ]
+    Ne15
+    Ne16
+    Ne17
+    Ne18
+    Ne19
+    Ne20 [ shape=octagon ]
+    Ne21 [ shape=octagon ]
+    Ne22 [ shape=octagon ]
+    Ne23
+    Ne24
+    Ne25
+    Ne26
+    Ne27
+    Ne28
+    Ne29
+    Ne30
+    Ne31
+    Ne32
+    Ne33
+    Ne34
+    Ne15 -> O13 [ label="2p" minlen="2" ]
+    Ne16 -> O14 [ label="2p" minlen="2" ]
+    Ne17 -> F17 [ label="β" ]
+    Ne18 -> F18 [ label="β" ]
+    Ne19 -> F19 [ label="β" ]
+    Ne20 -> F20 [ label="β-" dir="back" ]
+    Ne21 -> F21 [ label="β-" dir="back" ]
+    Ne22 -> F22 [ label="β-" dir="back" ]
+    Ne23 -> F23 [ label="β-" dir="back" ]
+    Ne24 -> F24 [ label="β-" dir="back" ]
+    Ne25 -> F25 [ label="β-" dir="back" ]
+    Ne26 -> F26 [ label="β-" dir="back" ]
+    Ne27 -> F27 [ label="β-" dir="back" ]
+    Ne28 -> F28 [ label="β-" dir="back" ]
+    Ne29 -> F29 [ label="β-" dir="back" ]
+    Ne30 -> F30 [ label="β-" dir="back" ]
+    Ne31 -> F31 [ label="β-" dir="back" ]
+  }
+
+  subgraph sodium {
+    node [ style=filled fillcolor=deepskyblue height=0.3 width=0.8 shape=rectangle ]
+    Na17
+    Na18
+    Na19
+    Na20
+    Na21
+    Na22
+    Na23 [ shape=octagon ]
+    Na24
+    Na25
+    Na26
+    Na27
+    Na28
+    Na29
+    Na30
+    Na31
+    Na32
+    Na33
+    Na34
+    Na35 
+    Na36
+    Na37
+    Na38 
+    Na39 
+    Na17 -> Ne16 [ label="p" ]
+    Na18 -> Ne17 [ label="p" ]
+    Na19 -> Ne18 [ label="p" ]
+    Na20 -> Ne20 [ label="β" ]
+    Na21 -> Ne21 [ label="β" ]
+    Na22 -> Ne22 [ label="β" ]
+    Na23 -> Ne23 [ label="β-" dir="back" ]
+    Na24 -> Ne24 [ label="β-" dir="back" ]
+    Na25 -> Ne25 [ label="β-" dir="back" ]
+    Na26 -> Ne26 [ label="β-" dir="back" ]
+    Na27 -> Ne27 [ label="β-" dir="back" ]
+    Na28 -> Ne28 [ label="β-" dir="back" ]
+    Na29 -> Ne29 [ label="β-" dir="back" ]
+    Na30 -> Ne30 [ label="β-" dir="back" ]
+    Na31 -> Ne31 [ label="β-" dir="back" ]
+    Na32 -> Ne32 [ label="β-" dir="back" ]
+    Na33 -> Ne33 [ label="β-" dir="back" ]
+    Na34 -> Ne34 [ label="β-" dir="back" ]
+  }
+
+  subgraph magnesium {
+    node [ style=filled fillcolor=lightpink height=0.3 width=0.8 shape=rectangle ]
+    Mg18
+    Mg19
+    Mg20
+    Mg21
+    Mg22
+    Mg23
+    Mg24 [ shape=octagon ]
+    Mg25 [ shape=octagon ]
+    Mg26 [ shape=octagon ]
+    Mg27
+    Mg28
+    Mg29
+    Mg30
+    Mg31
+    Mg32
+    Mg33
+    Mg34
+    Mg35 
+    Mg36
+    Mg37
+    Mg38 
+    Mg39 
+    Mg40 
+    Mg18 -> Ne16 [ label="2p" minlen="2" ]
+    Mg19 -> Ne17 [ label="2p" minlen="2" ]
+    Mg20 -> Na20 [ label="β" ]
+    Mg21 -> Na21 [ label="β" ]
+    Mg22 -> Na22 [ label="β" ]
+    Mg23 -> Na23 [ label="β" ]
+    Mg24 -> Na24 [ label="β-" dir="back" ]
+    Mg25 -> Na25 [ label="β-" dir="back" ]
+    Mg26 -> Na26 [ label="β-" dir="back" ]
+    Mg27 -> Na27 [ label="β-" dir="back" ]
+    Mg28 -> Na28 [ label="β-" dir="back" ]
+    Mg29 -> Na29 [ label="β-" dir="back" ]
+    Mg30 -> Na30 [ label="β-" dir="back" ]
+    Mg31 -> Na31 [ label="β-" dir="back" ]
+    Mg32 -> Na32 [ label="β-" dir="back" ]
+    Mg33 -> Na33 [ label="β-" dir="back" ]
+    Mg34 -> Na34 [ label="β-" dir="back" ]
+    Mg35 -> Na35 [ label="β-" dir="back" ]
+    Mg36 -> Na36 [ label="β-" dir="back" ]
+    Mg37 -> Na37 [ label="β-" dir="back" ]
+    Mg38 -> Na38 [ label="β-" dir="back" ]
+    Mg39 -> Na39 [ label="β-" dir="back" ]
+  }
+
+  subgraph aluminum {
+    node [ style=filled fillcolor=darkmagenta height=0.3 width=0.8 shape=rectangle ]
+    Al22
+    Al23
+    Al24
+    Al25
+    Al26
+    Al27 [ shape=octagon ]
+    Al28
+    Al29
+    Al30
+    Al31
+    Al32
+    Al33
+    Al34
+    Al35 
+    Al36
+    Al37
+    Al38 
+    Al39 
+    Al40 
+    Al41 
+    Al42 
+    Al43 
+    Al22 -> Mg22 [ label="β" ]
+    Al23 -> Mg23 [ label="β" ]
+    Al24 -> Mg24 [ label="β" ]
+    Al25 -> Mg25 [ label="β" ]
+    Al26 -> Mg26 [ label="β" ]
+    Al27 -> Mg27 [ label="β-" dir="back" ]
+    Al28 -> Mg28 [ label="β-" dir="back" ]
+    Al29 -> Mg29 [ label="β-" dir="back" ]
+    Al30 -> Mg30 [ label="β-" dir="back" ]
+    Al31 -> Mg31 [ label="β-" dir="back" ]
+    Al32 -> Mg32 [ label="β-" dir="back" ]
+    Al33 -> Mg33 [ label="β-" dir="back" ]
+    Al34 -> Mg34 [ label="β-" dir="back" ]
+    Al35 -> Mg35 [ label="β-" dir="back" ]
+    Al36 -> Mg36 [ label="β-" dir="back" ]
+    Al37 -> Mg37 [ label="β-" dir="back" ]
+    Al38 -> Mg38 [ label="β-" dir="back" ]
+    Al39 -> Mg39 [ label="β-" dir="back" ]
+    Al40 -> Mg40 [ label="β-" dir="back" ]
+  }
+
+  subgraph silicon {
+    node [ style=filled fillcolor=yellowgreen height=0.3 width=0.8 shape=rectangle ]
+    Si22
+    Si23
+    Si24
+    Si25
+    Si26
+    Si27
+    Si28 [ shape=octagon ]
+    Si29 [ shape=octagon ]
+    Si30 [ shape=octagon ]
+    Si31
+    Si32
+    Si33
+    Si34
+    Si35 
+    Si36
+    Si37
+    Si38 
+    Si39 
+    Si40 
+    Si41 
+    Si42 
+    Si43 
+    Si44
+    Si22 -> Al22 [ label="β" ]
+    Si23 -> Al23 [ label="β" ]
+    Si24 -> Al24 [ label="β" ]
+    Si25 -> Al25 [ label="β" ]
+    Si26 -> Al26 [ label="β" ]
+    Si27 -> Al27 [ label="β" ]
+    Si28 -> Al28 [ label="β-" dir="back" ]
+    Si29 -> Al29 [ label="β-" dir="back" ]
+    Si30 -> Al30 [ label="β-" dir="back" ]
+    Si31 -> Al31 [ label="β-" dir="back" ]
+    Si32 -> Al32 [ label="β-" dir="back" ]
+    Si33 -> Al33 [ label="β-" dir="back" ]
+    Si34 -> Al34 [ label="β-" dir="back" ]
+    Si35 -> Al35 [ label="β-" dir="back" ]
+    Si36 -> Al36 [ label="β-" dir="back" ]
+    Si37 -> Al37 [ label="β-" dir="back" ]
+    Si38 -> Al38 [ label="β-" dir="back" ]
+    Si39 -> Al39 [ label="β-" dir="back" ]
+    Si40 -> Al40 [ label="β-" dir="back" ]
+    Si41 -> Al41 [ label="β-" dir="back" ]
+    Si42 -> Al42 [ label="β-" dir="back" ]
+    Si43 -> Al43 [ label="β-" dir="back" ]
+  }
+
+  subgraph phosphorus {
+    node [ style=filled fillcolor=mediumorchid height=0.3 width=0.8 shape=rectangle ]
+    P27
+    P28
+    P29
+    P30
+    P31 [ shape="octagon" ]
+    P32
+    P33
+    P34
+    P35
+    P36
+    P37
+    P38
+    P39
+    P40
+    P41
+    P42
+    P43
+    P44
+    P45
+    P46
+    P47
+    P26 -> Si26 [ label="β" ]
+    P27 -> Si27 [ label="β" ]
+    P28 -> Si28 [ label="β" ]
+    P29 -> Si29 [ label="β" ]
+    P30 -> Si30 [ label="β" ]
+    P31 -> Si31 [ label="β-" dir="back" ]
+    P32 -> Si32 [ label="β-" dir="back" ]
+    P33 -> Si33 [ label="β-" dir="back" ]
+    P34 -> Si34 [ label="β-" dir="back" ]
+    P35 -> Si35 [ label="β-" dir="back" ]
+    P36 -> Si36 [ label="β-" dir="back" ]
+    P37 -> Si37 [ label="β-" dir="back" ]
+    P38 -> Si38 [ label="β-" dir="back" ]
+    P39 -> Si39 [ label="β-" dir="back" ]
+    P40 -> Si40 [ label="β-" dir="back" ]
+    P41 -> Si41 [ label="β-" dir="back" ]
+    P42 -> Si42 [ label="β-" dir="back" ]
+    P43 -> Si43 [ label="β-" dir="back" ]
+    P44 -> Si44 [ label="β-" dir="back" ]
   }
 
   subgraph sulfur {
-      node [ style=filled fillcolor=brown height=0.3 width=0.8 shape=rectangle ]
-      S27
-      S28
-      S29
-      S30
-      S31
-      S32 [ shape="octagon" ]
-      S33 [ shape="octagon" ]
-      S34 [ shape="octagon" ]
-      S35
-      S36 [ shape="octagon" ]
-      S37
-      S38
-      S39
-      S40
-      S41
-      S42
-      S43
-      S44
-      S45
-      S46
-      S47
-      S48
-      S49
+    node [ style=filled fillcolor=brown height=0.3 width=0.8 shape=rectangle ]
+    S27
+    S28
+    S29
+    S30
+    S31
+    S32 [ shape="octagon" ]
+    S33 [ shape="octagon" ]
+    S34 [ shape="octagon" ]
+    S35
+    S36 [ shape="octagon" ]
+    S37
+    S38
+    S39
+    S40
+    S41
+    S42
+    S43
+    S44
+    S45
+    S46
+    S47
+    S48
+    S49
+    S27 -> P27 [ label="β" ]
+    S28 -> P28 [ label="β" ]
+    S29 -> P29 [ label="β" ]
+    S30 -> P30 [ label="β" ]
+    S31 -> P31 [ label="β" ]
+    S32 -> P32 [ label="β-" dir="back" ]
+    S33 -> P33 [ label="β-" dir="back" ]
+    S34 -> P34 [ label="β-" dir="back" ]
+    S35 -> P35 [ label="β-" dir="back" ]
+    S36 -> P36 [ label="β-" dir="back" ]
+    S37 -> P37 [ label="β-" dir="back" ]
+    S38 -> P38 [ label="β-" dir="back" ]
+    S39 -> P39 [ label="β-" dir="back" ]
+    S40 -> P40 [ label="β-" dir="back" ]
+    S41 -> P41 [ label="β-" dir="back" ]
+    S42 -> P42 [ label="β-" dir="back" ]
+    S43 -> P43 [ label="β-" dir="back" ]
+    S44 -> P44 [ label="β-" dir="back" ]
+    S45 -> P45 [ label="β-" dir="back" ]
+    S46 -> P46 [ label="β-" dir="back" ]
+    S47 -> P47 [ label="β-" dir="back" ]
   }
 
   subgraph chlorine {
-      node [ style=filled fillcolor=yellow height=0.3 width=0.8 shape=rectangle ]
-      Cl28
-      Cl29
-      Cl30
-      Cl31
-      Cl32
-      Cl33
-      Cl34
-      Cl35 [ shape="octagon" ]
-      Cl36
-      Cl37 [ shape="octagon" ]
-      Cl38
-      Cl39
-      Cl40
-      Cl41
-      Cl42
-      Cl43
-      Cl44
-      Cl45
-      Cl46
-      Cl47
-      Cl48
-      Cl49
-      Cl50
-      Cl51
-      Cl52
-      Cl28 -> S27 [ label="p" ]
-      Cl29 -> S28 [ label="p" ]
-      Cl30 -> S29 [ label="p" ]
-      Cl31 -> S31 [ label="β" ]
-      Cl32 -> S32 [ label="β" ]
-      Cl33 -> S33 [ label="β" ]
-      Cl34 -> S34 [ label="β" ]
+    node [ style=filled fillcolor=yellow height=0.3 width=0.8 shape=rectangle ]
+    Cl28
+    Cl29
+    Cl30
+    Cl31
+    Cl32
+    Cl33
+    Cl34
+    Cl35 [ shape="octagon" ]
+    Cl36
+    Cl37 [ shape="octagon" ]
+    Cl38
+    Cl39
+    Cl40
+    Cl41
+    Cl42
+    Cl43
+    Cl44
+    Cl45
+    Cl46
+    Cl47
+    Cl48
+    Cl49
+    Cl50
+    Cl51
+    Cl52
+    Cl28 -> S27 [ label="p" ]
+    Cl29 -> S28 [ label="p" ]
+    Cl30 -> S29 [ label="p" ]
+    Cl31 -> S31 [ label="β" ]
+    Cl32 -> S32 [ label="β" ]
+    Cl33 -> S33 [ label="β" ]
+    Cl34 -> S34 [ label="β" ]
+    Cl35 -> S35 [ label="β-" dir="back" ]
+    Cl36 -> S36 [ label="β-" dir="back" style=invis]
+    Cl37 -> S37 [ label="β-" dir="back" ]
+    Cl38 -> S38 [ label="β-" dir="back" ]
+    Cl39 -> S39 [ label="β-" dir="back" ]
+    Cl40 -> S40 [ label="β-" dir="back" ]
+    Cl41 -> S41 [ label="β-" dir="back" ]
+    Cl42 -> S42 [ label="β-" dir="back" ]
+    Cl43 -> S43 [ label="β-" dir="back" ]
+    Cl44 -> S44 [ label="β-" dir="back" ]
+    Cl45 -> S45 [ label="β-" dir="back" ]
+    Cl46 -> S46 [ label="β-" dir="back" ]
+    Cl47 -> S47 [ label="β-" dir="back" ]
+    Cl48 -> S48 [ label="β-" dir="back" ]
+    Cl49 -> S49 [ label="β-" dir="back" ]
   }
 
   subgraph argon {
-      node [ style=filled fillcolor=pink height=0.3 width=0.8 shape=rectangle ]
+      node [ style=filled fillcolor=oldlace height=0.3 width=0.8 shape=rectangle ]
       Ar29
       Ar30
       Ar31
@@ -364,7 +640,7 @@ digraph decay {
       Ar38 [ shape=octagon ]
       Ar39
       Ar40 [ shape=octagon ]
-      Ar41
+      /*Ar41
       Ar42
       Ar43
       Ar44
@@ -377,15 +653,34 @@ digraph decay {
       Ar51
       Ar52
       Ar53
-      Ar54
-      Ar29 -> S27 [ label="2p" ]
-      Ar30 -> S28 [ label="2p" ]
+      Ar54*/
+      Ar30 -> S30 [ label="20" minlen="2" style=invis]
+      Ar30 -> Cl30 [ label="0" style=invis]
+      Ar29 -> S27 [ label="2p" minlen="2" ]
+      Ar30 -> S28 [ label="2p" minlen="2" ]
       Ar31 -> Cl31 [ label="β" ]
       Ar32 -> Cl32 [ label="β" ]
       Ar33 -> Cl33 [ label="β" ]
       Ar34 -> Cl34 [ label="β" ]
       Ar35 -> Cl35 [ label="β" ]
       Ar37 -> Cl37 [ label="ε" ]
+      Ar36 -> Cl36 [ label="β-" dir="back" ]
+      Ar38 -> Cl38 [ label="β-" dir="back" ]
+      Ar39 -> Cl39 [ label="β-" dir="back" ]
+      Ar40 -> Cl40 [ label="β-" dir="back" ]
+      Ar41 -> Cl41 [ label="β-" dir="back" ]
+      Ar42 -> Cl42 [ label="β-" dir="back" ]
+      Ar43 -> Cl43 [ label="β-" dir="back" ]
+      Ar44 -> Cl44 [ label="β-" dir="back" ]
+      Ar45 -> Cl45 [ label="β-" dir="back" ]
+      Ar46 -> Cl46 [ label="β-" dir="back" ]
+      Ar47 -> Cl47 [ label="β-" dir="back" ]
+      Ar48 -> Cl48 [ label="β-" dir="back" ]
+      Ar49 -> Cl49 [ label="β-" dir="back" ]
+      Ar50 -> Cl50 [ label="β-" dir="back" ]
+      Ar51 -> Cl51 [ label="β-" dir="back" ]
+      Ar52 -> Cl52 [ label="β-" dir="back" ]
+    }
   }
 }
 
